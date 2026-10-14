@@ -94,7 +94,7 @@ function jstDay_(date) { return new Date(date.getTime()+9*60*60*1000).toISOStrin
 
 
 // Only card metadata is published. Descriptions and employer statistics remain in memory.
-const CW_POLICY='cw-student-exclusions-20261014-v1';
+const CW_POLICY='cw-student-exclusions-20261014-v2-video-reference';
 const CW_EXCLUDED_WORDS=['既婚','未婚','結婚','独立','20代','学生','実家','子供','一人暮らし','雇用形態','スクール','精神疾患','未経験','初心者'];
 const JOB_URLS={coconala:/^https:\/\/coconala\.com\/requests\/\d+$/,crowdworks:/^https:\/\/crowdworks\.jp\/public\/jobs\/\d+$/,lancers:/^https:\/\/www\.lancers\.jp\/work\/detail\/\d+$/,mamaworks:/^https:\/\/mamaworks\.jp\/job\/\d+$/};
 function compactText(value){return cleanText_(decodeHtml_(value)).normalize('NFKC').replace(/[\s\u200b-\u200d\ufeff]/g,'');}
@@ -136,6 +136,27 @@ function parseMamaworks_(html){
     return {id:'mamaworks-'+id[1],title:cleanText_(title[1]),url:'https://mamaworks.jp/job/'+id[1],budget:price?cleanText_(price[1]).slice(0,150):'報酬は募集ページで確認',deadline,postedAt,status:'released',private:false,filterText:''};
   }).filter(Boolean);
 }
+function hasReferenceVideo_(description){
+  // Examine the job description only. Preserve hrefs, which are absent from rendered link labels.
+  const text=decodeHtml_(description)
+    .replace(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi,(_,url,label)=>cleanText_(label)+' '+decodeHtml_(url))
+    .replace(/<br\s*\/?\s*>|<\/p>|<\/li>/gi,'\n').replace(/<[^>]*>/g,' ').normalize('NFKC');
+  for(const match of text.matchAll(/https?:\/\/[^\s<>"'（）【】「」、。]+/g)){
+    let url;try{url=new URL(match[0].replace(/[)\],;]+$/,''));}catch{continue;}
+    const host=url.hostname.toLowerCase().replace(/^www\./,'');
+    const isVideo=(host==='youtu.be'&&/^\/[\w-]{6,}(?:\/|$)/.test(url.pathname))||
+      ((host==='youtube.com'||host==='m.youtube.com')&&((url.pathname==='/watch'&&/^[\w-]{6,}$/.test(url.searchParams.get('v')||''))||/^\/(?:shorts|embed)\/[\w-]{6,}/.test(url.pathname)))||
+      (host==='vimeo.com'&&/^\/\d+/.test(url.pathname))||(host==='player.vimeo.com'&&/^\/video\/\d+/.test(url.pathname))||
+      (host==='tiktok.com'&&/^\/@[^/]+\/video\/\d+/.test(url.pathname))||
+      (['vt.tiktok.com','vm.tiktok.com'].includes(host)&&/^\/[\w-]+/.test(url.pathname))||
+      (host==='instagram.com'&&/^\/reel\/[\w-]+/.test(url.pathname))||
+      (host==='drive.google.com'&&(/^\/file\/d\/[\w-]+/.test(url.pathname)||(url.pathname==='/open'&&url.searchParams.has('id'))));
+    if(!isVideo)continue;
+    const context=text.slice(Math.max(0,match.index-180),match.index+match[0].length+70);
+    if(/参考(?:動画|映像)|完成(?:イメージ|動画|例)|編集(?:イメージ|例)|動画(?:イメージ|例)|サンプル(?:動画|映像)|(?:以下|下記|このような).{0,15}動画/.test(context.replace(/\s+/g,'')))return true;
+  }
+  return false;
+}
 function parseCrowdworksDetail_(html){
   let posting;
   for(const match of html.matchAll(/<script\b[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)){
@@ -146,7 +167,7 @@ function parseCrowdworksDetail_(html){
   if(!client)throw new Error('発注者を確認できません');
   const employer=JSON.parse(decodeHtml_(client[1]));
   if(!Number.isSafeInteger(employer.userId)||employer.userId<=0)throw new Error('発注者IDを確認できません');
-  return {body:cleanText_(decodeHtml_(posting.description)),employerId:employer.userId,deadline:String(posting.validThrough||'').slice(0,10)};
+  return {body:cleanText_(decodeHtml_(posting.description)),hasReferenceVideo:hasReferenceVideo_(posting.description),employerId:employer.userId,deadline:String(posting.validThrough||'').slice(0,10)};
 }
 function parseCrowdworksEmployer_(html){
   const data=html.match(/id=["']vue-container["'][^>]*\bdata=["']([^"']+)["']/);
@@ -190,6 +211,7 @@ async function update(previous,now=new Date(),fetcher=fetch,pause=ms=>new Promis
           try{
             const detail=parseCrowdworksDetail_(await fetchPage(job.url,fetcher));detailChecked++;
             const reason=crowdworksExclusion(job.title,detail.body);if(reason){countExcluded(reason);continue;}
+            if(!detail.hasReferenceVideo){countExcluded('no_reference_video');continue;}
             if(detail.deadline&&detail.deadline<jstDay_(now)){countExcluded('expired');continue;}
             if(!employers.has(detail.employerId)){await pause(600);employers.set(detail.employerId,parseCrowdworksEmployer_(await fetchPage('https://crowdworks.jp/public/employers/'+detail.employerId,fetcher)));}
             const client=employers.get(detail.employerId);
@@ -217,6 +239,6 @@ async function main(){
   console.log(JSON.stringify(state.sources.map(s=>({source:s.id,count:s.jobs.length,lastSuccess:s.lastSuccess,error:s.error||null})),null,2));
   if(state.sources.some(s=>s.automatic&&s.error))process.exitCode=1;
 }
-module.exports={update,JOB_SETTINGS,parseCrowdworks_,parseCoconala_,parseLancers_,parseMamaworks_,parseCrowdworksDetail_,parseCrowdworksEmployer_,crowdworksExclusion,CW_EXCLUDED_WORDS,CW_POLICY,eligibleJob_,publicJob_};
+module.exports={update,JOB_SETTINGS,parseCrowdworks_,parseCoconala_,parseLancers_,parseMamaworks_,parseCrowdworksDetail_,parseCrowdworksEmployer_,hasReferenceVideo_,crowdworksExclusion,CW_EXCLUDED_WORDS,CW_POLICY,eligibleJob_,publicJob_,fetchPage};
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
 
