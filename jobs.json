@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-14T16:49:17.899Z",
+  "lastAttempt": "2026-10-14T22:48:57.380Z",
   "sources": [
     {
       "id": "coconala_long",
@@ -333,8 +333,8 @@
           "budget": "50 ~ 50 万円／月"
         }
       ],
-      "lastSuccess": "2026-10-14T16:49:17.899Z",
-      "lastAttempt": "2026-10-14T16:49:17.899Z",
+      "lastSuccess": "2026-10-14T22:48:57.380Z",
+      "lastAttempt": "2026-10-14T22:48:57.380Z",
       "error": null,
       "rawCount": 64
     },
@@ -633,8 +633,8 @@
           "postedAt": "2026-10-04T00:59:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T16:49:17.899Z",
-      "lastAttempt": "2026-10-14T16:49:17.899Z",
+      "lastSuccess": "2026-10-14T22:48:57.380Z",
+      "lastAttempt": "2026-10-14T22:48:57.380Z",
       "error": null,
       "rawCount": 41
     },
@@ -807,8 +807,8 @@
           "budget": "時間単価：1,300円〜（税込）"
         }
       ],
-      "lastSuccess": "2026-10-14T16:49:17.899Z",
-      "lastAttempt": "2026-10-14T16:49:17.899Z",
+      "lastSuccess": "2026-10-14T22:48:57.380Z",
+      "lastAttempt": "2026-10-14T22:48:57.380Z",
       "error": null,
       "rawCount": 33
     },
@@ -857,30 +857,22 @@
           "budget": "50,000円〜100,000円",
           "deadline": "2026-10-28",
           "postedAt": "2026-10-14T14:40:32+09:00"
-        },
-        {
-          "id": "crowdworks-13533014",
-          "title": "【1本5000円】健康に関する動画編集者様を大募集！【主婦の方歓迎・長期案件】※最初はテスト採用",
-          "url": "https://crowdworks.jp/public/jobs/13533014",
-          "budget": "〜500円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T13:27:46+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T16:49:17.899Z",
-      "lastAttempt": "2026-10-14T16:49:17.899Z",
+      "lastSuccess": "2026-10-14T22:48:57.380Z",
+      "lastAttempt": "2026-10-14T22:48:57.380Z",
       "error": null,
       "rawCount": 150,
       "screeningPolicy": "cw-student-exclusions-20261014-v2-video-reference",
       "detailChecked": 57,
       "excluded": {
-        "excluded_keyword": 48,
+        "excluded_keyword": 52,
+        "beginner_inducements": 1,
+        "no_reference_video": 29,
         "unverifiable": 3,
-        "no_reference_video": 30,
         "occupation_question": 4,
         "no_rating_or_contracts": 4,
-        "beginner_inducements": 1,
-        "not_checked": 22
+        "not_checked": 20
       }
     }
   ]
