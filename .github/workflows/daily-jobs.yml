@@ -1,0 +1,35 @@
+name: Daily public job links
+on:
+  schedule:
+    - cron: '23 22 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['collect.cjs', '.github/workflows/daily-jobs.yml']
+permissions:
+  contents: write
+concurrency:
+  group: daily-public-job-links
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch public job pages
+        id: collect
+        continue-on-error: true
+        run: node collect.cjs
+      - name: Save update state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add jobs.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update public job links and fetch status'
+            git push
+          fi
+      - name: Report source failures
+        if: steps.collect.outcome == 'failure'
+        run: exit 1
