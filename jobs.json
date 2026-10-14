@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-14T11:14:21.990Z",
+  "lastAttempt": "2026-10-14T11:20:28.836Z",
   "sources": [
     {
       "id": "coconala",
@@ -305,8 +305,8 @@
           "postedAt": "2026-09-30T23:47:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T11:14:21.990Z",
-      "lastAttempt": "2026-10-14T11:14:21.990Z",
+      "lastSuccess": "2026-10-14T11:20:28.836Z",
+      "lastAttempt": "2026-10-14T11:20:28.836Z",
       "error": null,
       "rawCount": 41
     },
@@ -353,14 +353,6 @@
           "budget": "0円〜5,000円",
           "deadline": "2026-10-17",
           "postedAt": "2026-10-14T19:47:22+09:00"
-        },
-        {
-          "id": "crowdworks-13534015",
-          "title": "【40〜50代女性活躍中】YouTube動画の演者募集！ご自宅で簡単撮影／丁寧なマニュアルあり／長期継続あり",
-          "url": "https://crowdworks.jp/public/jobs/13534015",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T19:41:31+09:00"
         },
         {
           "id": "crowdworks-13505219",
@@ -435,14 +427,6 @@
           "postedAt": "2026-10-14T18:20:45+09:00"
         },
         {
-          "id": "crowdworks-13533883",
-          "title": "【継続案件】ChatGPTを活用し、YouTube台本から約200枚のスライドを作成できる方募集",
-          "url": "https://crowdworks.jp/public/jobs/13533883",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-18",
-          "postedAt": "2026-10-14T18:19:11+09:00"
-        },
-        {
           "id": "crowdworks-13488890",
           "title": "【長期継続可能！】YouTubeインバウンド向けの長尺旅行Vlog風ちゃんねるの動画の編集！！【1本5000円！！！】",
           "url": "https://crowdworks.jp/public/jobs/13488890",
@@ -489,14 +473,6 @@
           "budget": "予算は募集ページで確認",
           "deadline": "2026-10-19",
           "postedAt": "2026-10-14T17:55:48+09:00"
-        },
-        {
-          "id": "crowdworks-13533828",
-          "title": "【1本1,200円・長期】歌で物語が進むショート動画の台本・歌詞＋投稿文ライター募集",
-          "url": "https://crowdworks.jp/public/jobs/13533828",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T17:54:46+09:00"
         },
         {
           "id": "crowdworks-13533824",
@@ -595,36 +571,12 @@
           "postedAt": "2026-10-14T16:02:49+09:00"
         },
         {
-          "id": "crowdworks-13533505",
-          "title": "【簡単・スマホ撮影のみ・顔出し不要・女性限定】料理・お弁当作り動画の撮影者募集！",
-          "url": "https://crowdworks.jp/public/jobs/13533505",
-          "budget": "〜550円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:59:40+09:00"
-        },
-        {
-          "id": "crowdworks-13533471",
-          "title": "【簡単・スマホ撮影のみ・顔出し不要・女性限定・報酬500円】洗い物（食器洗い）動画の撮影者募集！",
-          "url": "https://crowdworks.jp/public/jobs/13533471",
-          "budget": "〜550円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:42:48+09:00"
-        },
-        {
           "id": "crowdworks-13533460",
           "title": "【難易度★☆☆ SNS編集】未経験OK｜継続案件あり！",
           "url": "https://crowdworks.jp/public/jobs/13533460",
           "budget": "5,000円〜10,000円",
           "deadline": "2026-10-28",
           "postedAt": "2026-10-14T15:41:11+09:00"
-        },
-        {
-          "id": "crowdworks-13533459",
-          "title": "【スマホ撮影のみ・顔出し不要・男性限定・報酬500円】洗い物（食器洗い）動画の撮影者募集！",
-          "url": "https://crowdworks.jp/public/jobs/13533459",
-          "budget": "〜550円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:36:51+09:00"
         },
         {
           "id": "crowdworks-13533247",
@@ -697,14 +649,6 @@
           "budget": "30,000円〜50,000円",
           "deadline": "2026-10-28",
           "postedAt": "2026-10-14T14:52:31+09:00"
-        },
-        {
-          "id": "crowdworks-13533222",
-          "title": "【1枚1200円〜】デザインが企業の力に！長期を見据えたスライド制作🎨【大手案件】",
-          "url": "https://crowdworks.jp/public/jobs/13533222",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:47:44+09:00"
         },
         {
           "id": "crowdworks-13533210",
@@ -809,10 +753,66 @@
           "budget": "30,000円〜50,000円",
           "deadline": "2026-10-28",
           "postedAt": "2026-10-14T14:15:33+09:00"
+        },
+        {
+          "id": "crowdworks-13533092",
+          "title": "【顔出しあり！男性モデルさん募集】化粧品系モデル",
+          "url": "https://crowdworks.jp/public/jobs/13533092",
+          "budget": "5,000円〜10,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T13:59:02+09:00"
+        },
+        {
+          "id": "crowdworks-13533065",
+          "title": "【初心者歓迎】YouTube動画編集 （ポートフォリオ使用OK）",
+          "url": "https://crowdworks.jp/public/jobs/13533065",
+          "budget": "〜330円",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T13:49:06+09:00"
+        },
+        {
+          "id": "crowdworks-13533060",
+          "title": "【20代・未経験OK】好きなファッションを仕事に👗おしゃれ系ショート動画の編集メンバー募集【継続あり】",
+          "url": "https://crowdworks.jp/public/jobs/13533060",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T13:46:46+09:00"
+        },
+        {
+          "id": "crowdworks-13533031",
+          "title": "ビジネス系YouTube動画編集 継続希望",
+          "url": "https://crowdworks.jp/public/jobs/13533031",
+          "budget": "〜9,900円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T13:34:11+09:00"
+        },
+        {
+          "id": "crowdworks-13533021",
+          "title": "【ショート動画編集】夜勤・立ち仕事の疲労回復＆セルフケア🌿｜Instagramリール作成（15〜30秒・テロップ入れ中心）",
+          "url": "https://crowdworks.jp/public/jobs/13533021",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T13:30:25+09:00"
+        },
+        {
+          "id": "crowdworks-13533017",
+          "title": "YouTube用のAI動画の作成、編集ができる方を募集します",
+          "url": "https://crowdworks.jp/public/jobs/13533017",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T13:28:42+09:00"
+        },
+        {
+          "id": "crowdworks-13533014",
+          "title": "【1本5000円】健康に関する動画編集者様を大募集！【主婦の方歓迎・長期案件】※最初はテスト採用",
+          "url": "https://crowdworks.jp/public/jobs/13533014",
+          "budget": "〜500円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T13:27:46+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T11:14:21.990Z",
-      "lastAttempt": "2026-10-14T11:14:21.990Z",
+      "lastSuccess": "2026-10-14T11:20:28.836Z",
+      "lastAttempt": "2026-10-14T11:20:28.836Z",
       "error": null,
       "rawCount": 150
     }
