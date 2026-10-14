@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "lastAttempt": null,
+  "sources": [
+    {
+      "id": "coconala",
+      "name": "ココナラ",
+      "automatic": true,
+      "url": "https://coconala.com/requests/categories/10?recruiting=true",
+      "jobs": [],
+      "lastSuccess": null,
+      "lastAttempt": null,
+      "error": "初回更新を準備しています"
+    },
+    {
+      "id": "lancers",
+      "name": "ランサーズ",
+      "automatic": false,
+      "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started",
+      "jobs": [],
+      "lastSuccess": null,
+      "lastAttempt": null,
+      "error": null
+    },
+    {
+      "id": "mamaworks",
+      "name": "ママワークス",
+      "automatic": false,
+      "url": "https://mamaworks.jp/list?lrj%5Brecruitmentjob_id%5D%5B0%5D=400",
+      "jobs": [],
+      "lastSuccess": null,
+      "lastAttempt": null,
+      "error": null
+    },
+    {
+      "id": "crowdworks",
+      "name": "クラウドワークス",
+      "automatic": true,
+      "url": "https://crowdworks.jp/public/jobs/group/video_contents?order=new",
+      "jobs": [],
+      "lastSuccess": null,
+      "lastAttempt": null,
+      "error": "初回更新を準備しています"
+    }
+  ]
+}
