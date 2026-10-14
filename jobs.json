@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-14T14:39:21.494Z",
+  "lastAttempt": "2026-10-14T14:53:00.928Z",
   "sources": [
     {
       "id": "coconala",
@@ -313,8 +313,8 @@
           "postedAt": "2026-09-30T23:47:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T14:39:21.494Z",
-      "lastAttempt": "2026-10-14T14:39:21.494Z",
+      "lastSuccess": "2026-10-14T14:53:00.928Z",
+      "lastAttempt": "2026-10-14T14:53:00.928Z",
       "error": null,
       "rawCount": 42
     },
@@ -590,7 +590,7 @@
         }
       ],
       "lastSuccess": "2026-10-14T14:08:27.155Z",
-      "lastAttempt": "2026-10-14T14:39:21.494Z",
+      "lastAttempt": "2026-10-14T14:53:00.928Z",
       "error": "取得元の応答: HTTP 405"
     },
     {
@@ -762,8 +762,8 @@
           "budget": "時間単価：1,300円〜（税込）"
         }
       ],
-      "lastSuccess": "2026-10-14T14:39:21.494Z",
-      "lastAttempt": "2026-10-14T14:39:21.494Z",
+      "lastSuccess": "2026-10-14T14:53:00.928Z",
+      "lastAttempt": "2026-10-14T14:53:00.928Z",
       "error": null,
       "rawCount": 33
     },
@@ -788,25 +788,17 @@
           "budget": "〜500円",
           "deadline": "2026-10-28",
           "postedAt": "2026-10-14T13:27:46+09:00"
-        },
-        {
-          "id": "crowdworks-13532918",
-          "title": "【1本8,000円】ビジネス系YouTube動画の編集をお願いします！【主婦・副業歓迎】（継続対応いただける方優遇）",
-          "url": "https://crowdworks.jp/public/jobs/13532918",
-          "budget": "50,000円〜100,000円",
-          "deadline": "2026-10-18",
-          "postedAt": "2026-10-14T12:59:59+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T14:39:21.494Z",
-      "lastAttempt": "2026-10-14T14:39:21.494Z",
+      "lastSuccess": "2026-10-14T14:53:00.928Z",
+      "lastAttempt": "2026-10-14T14:53:00.928Z",
       "error": null,
-      "rawCount": 150,
+      "rawCount": 149,
       "screeningPolicy": "cw-student-exclusions-20261014-v2-video-reference",
       "detailChecked": 58,
       "excluded": {
-        "excluded_keyword": 46,
-        "no_reference_video": 30,
+        "excluded_keyword": 45,
+        "no_reference_video": 31,
         "unverifiable": 2,
         "occupation_question": 4,
         "no_rating_or_contracts": 4,
