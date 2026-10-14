@@ -315,10 +315,277 @@
       "name": "ランサーズ",
       "automatic": true,
       "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started",
-      "jobs": [],
-      "lastSuccess": null,
+      "jobs": [
+        {
+          "id": "lancers-5595898",
+          "title": "【長期 10,000円/本】科学系ゆっくり動画の編集者募集の仕事",
+          "url": "https://www.lancers.jp/work/detail/5595898",
+          "budget": "300,000 円 ~ 500,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5616066",
+          "title": "【長期パートナー募集】SNS運用のショート動画編集",
+          "url": "https://www.lancers.jp/work/detail/5616066",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5616055",
+          "title": "ショート動画制作【Instagram用】",
+          "url": "https://www.lancers.jp/work/detail/5616055",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5616015",
+          "title": "【長期継続・月間27万〜33万円規模】YouTube・広告動画の編集者募集！",
+          "url": "https://www.lancers.jp/work/detail/5616015",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615905",
+          "title": "【初心者歓迎・継続依頼あり】カフェ紹介のショート動画編集｜Instagram・TikTok向け",
+          "url": "https://www.lancers.jp/work/detail/5615905",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615891",
+          "title": "海外観光向けショート動画編集者募集！",
+          "url": "https://www.lancers.jp/work/detail/5615891",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615881",
+          "title": "カット編集済みルームツアー動画の編集！テロップ作成・装飾・BGM等の仕上げ編集（約5分）",
+          "url": "https://www.lancers.jp/work/detail/5615881",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5614539",
+          "title": "【YMM4経験者募集】学マス反応集の動画編集｜継続あり・1本5,500円〜",
+          "url": "https://www.lancers.jp/work/detail/5614539",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615861",
+          "title": "【動画編集者募集｜ロング対談動画＋切り抜き】希望納期10/24",
+          "url": "https://www.lancers.jp/work/detail/5615861",
+          "budget": "20,000 円 ~ 50,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615837",
+          "title": "【ネイルショート動画制作】約～1分リール＆縦動画作成依頼",
+          "url": "https://www.lancers.jp/work/detail/5615837",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615805",
+          "title": "【継続あり】ショート動画編集者募集！1案件8本／Premiere Pro使用",
+          "url": "https://www.lancers.jp/work/detail/5615805",
+          "budget": "5,000 円 ~ 10,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615753",
+          "title": "YouTubeの動画編集者 画像紙芝居形式",
+          "url": "https://www.lancers.jp/work/detail/5615753",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615734",
+          "title": "【30秒〜1分程度の動画】商品紹介の動画編集・クリエイター募集",
+          "url": "https://www.lancers.jp/work/detail/5615734",
+          "budget": "20,000 円 ~ 50,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5600050",
+          "title": "【縦型動画編集】「看護師さんの時間の使い方・体験談」のショート動画編集案件！（継続発注あり）",
+          "url": "https://www.lancers.jp/work/detail/5600050",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615713",
+          "title": "【継続依頼あり】TikTok・Instagram広告用ショート動画編集【副業OK】",
+          "url": "https://www.lancers.jp/work/detail/5615713",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615546",
+          "title": "【Instagram用】ショート動画制作",
+          "url": "https://www.lancers.jp/work/detail/5615546",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615545",
+          "title": "【縦型動画編集】構成案あり！ Instagram動画作成メンバー募集",
+          "url": "https://www.lancers.jp/work/detail/5615545",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615544",
+          "title": "【未経験相談可】ショート動画編集（マニュアルあり）",
+          "url": "https://www.lancers.jp/work/detail/5615544",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615516",
+          "title": "【専業主婦歓迎】縦型ショート動画編集/1本単価500円（継続依頼あり）",
+          "url": "https://www.lancers.jp/work/detail/5615516",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615517",
+          "title": "【専業主婦歓迎】縦型ショート動画編集/1本単価500円（継続依頼あり）",
+          "url": "https://www.lancers.jp/work/detail/5615517",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615480",
+          "title": "ショート動画編集の経験者募集（単価1,000円）｜CapCut Pro デスクトップ版必須",
+          "url": "https://www.lancers.jp/work/detail/5615480",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615457",
+          "title": "【専業主婦歓迎】縦型ショート動画編集/1本単価500円（継続依頼あり）",
+          "url": "https://www.lancers.jp/work/detail/5615457",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5613345",
+          "title": "【非属人YouTubeチャンネルのディレクター募集です】0から一緒に作りませんか？",
+          "url": "https://www.lancers.jp/work/detail/5613345",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615407",
+          "title": "【急募】工場紹介ムービーの動画編集（素材支給・カットとBGM中心）企業映像の編集実績がある方",
+          "url": "https://www.lancers.jp/work/detail/5615407",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615401",
+          "title": "【急募】国内靴メーカーのブランドムービー編集（素材支給・テロップほぼ無し）PV制作実績のある方",
+          "url": "https://www.lancers.jp/work/detail/5615401",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615358",
+          "title": "観光向けショート動画編集の作成",
+          "url": "https://www.lancers.jp/work/detail/5615358",
+          "budget": "20,000 円 ~ 50,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615245",
+          "title": "ショート動画編集者募集｜継続案件あり｜スキル不要",
+          "url": "https://www.lancers.jp/work/detail/5615245",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615185",
+          "title": "【仕様書あり・継続】女性Vlog動画編集者募集|1本11,000円〜",
+          "url": "https://www.lancers.jp/work/detail/5615185",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615145",
+          "title": "【急募！】SNS広告用ショート動画作成！実際に美容液の広告用ショート動画を作成した事がある方限定！",
+          "url": "https://www.lancers.jp/work/detail/5615145",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615140",
+          "title": "縦型ショート動画の編集者さんを募集します（継続依頼あり）",
+          "url": "https://www.lancers.jp/work/detail/5615140",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615143",
+          "title": "【継続案件】YouTubeショート・TikTok・Instagram Reelsの動画編集者募集",
+          "url": "https://www.lancers.jp/work/detail/5615143",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615080",
+          "title": "YouTube長尺動画（15〜30分）編集者募集｜ハイエンド商材ブランド公式チャンネル",
+          "url": "https://www.lancers.jp/work/detail/5615080",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615078",
+          "title": "【高単価/1本10,000円〜】YouTubeの動画編集をしてくださる方を探しています！",
+          "url": "https://www.lancers.jp/work/detail/5615078",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615034",
+          "title": "【継続あり／月4〜5本】Instagramリール動画編集｜医療系・30〜60秒／CapCut Pro",
+          "url": "https://www.lancers.jp/work/detail/5615034",
+          "budget": "5,000 円 ~ 10,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5615005",
+          "title": "動画編集「団体の式典の記録用」",
+          "url": "https://www.lancers.jp/work/detail/5615005",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5614815",
+          "title": "YouTubeの動画編集",
+          "url": "https://www.lancers.jp/work/detail/5614815",
+          "budget": "20,000 円 ~ 50,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5614798",
+          "title": "【R-18】デスクトップマスコットアプリのPV動画編集（3本／素材・BGM・構成支給）",
+          "url": "https://www.lancers.jp/work/detail/5614798",
+          "budget": "20,000 円 ~ 50,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5614638",
+          "title": "【初心者OK】Youtube動画編集者募集中",
+          "url": "https://www.lancers.jp/work/detail/5614638",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5614220",
+          "title": "TikTok・Instagram等のショート動画の企画・撮影・編集のお仕事ができる方を募集します！",
+          "url": "https://www.lancers.jp/work/detail/5614220",
+          "budget": "50,000 円 ~ 100,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5610351",
+          "title": "AIを活用した動画広告制作（絵コンテ～動画まで）",
+          "url": "https://www.lancers.jp/work/detail/5610351",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5587573",
+          "title": "【急募】野球に関するYouTube動画の編集",
+          "url": "https://www.lancers.jp/work/detail/5587573",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5613945",
+          "title": "ビジネス系チャンネルの動画編集",
+          "url": "https://www.lancers.jp/work/detail/5613945",
+          "budget": "5,000 円 ~ 10,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5613869",
+          "title": "急募！※未経験可【ビジネス系】動画の編集、サムネイル作成（カット、テロップ、SE、BGM等）",
+          "url": "https://www.lancers.jp/work/detail/5613869",
+          "budget": "1,000 ~ 5,000 円 / 固定"
+        },
+        {
+          "id": "lancers-5606211",
+          "title": "【継続アリ】都市伝説・事件系のYouTube動画の編集",
+          "url": "https://www.lancers.jp/work/detail/5606211",
+          "budget": "10,000 円 ~ 20,000 円 / 固定"
+        }
+      ],
+      "lastSuccess": "2026-10-14T14:08:27.155Z",
       "lastAttempt": "2026-10-14T14:10:21.551Z",
-      "error": "取得元の応答: HTTP 405"
+      "error": "取得元の応答: HTTP 405",
+      "rawCount": 89,
+      "initialSnapshotOrigin": "owner-session-public-fetch"
     },
     {
       "id": "mamaworks",
@@ -499,11 +766,247 @@
       "name": "クラウドワークス",
       "automatic": true,
       "url": "https://crowdworks.jp/public/jobs/group/video_contents?order=new",
-      "jobs": [],
-      "lastSuccess": null,
+      "jobs": [
+        {
+          "id": "crowdworks-13534282",
+          "title": "ショート動画 美容動画作成（経験者優遇） 単価数万~ 継続依頼あり",
+          "url": "https://crowdworks.jp/public/jobs/13534282",
+          "budget": "30,000円〜50,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T22:25:33+09:00"
+        },
+        {
+          "id": "crowdworks-13534270",
+          "title": "【広告制作経験者歓迎】Instagram広告用リール動画2本｜企画・構成から制作できる方募集",
+          "url": "https://crowdworks.jp/public/jobs/13534270",
+          "budget": "〜5,500円",
+          "deadline": "2026-10-18",
+          "postedAt": "2026-10-14T22:11:43+09:00"
+        },
+        {
+          "id": "crowdworks-13500611",
+          "title": "【素材あり】グルメ系ショート動画の編集者募集！1本2,000円",
+          "url": "https://crowdworks.jp/public/jobs/13500611",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T21:22:39+09:00"
+        },
+        {
+          "id": "crowdworks-13497899",
+          "title": "【丁寧さを重視します✨】「分かる！」を生み出す共感系ショート動画の編集者募集🎵｜継続案件◎",
+          "url": "https://crowdworks.jp/public/jobs/13497899",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T21:20:46+09:00"
+        },
+        {
+          "id": "crowdworks-13504401",
+          "title": "【長期継続依頼あり◎】Instagramショート動画編集｜これまでの編集経験を活かしたい方を歓迎します✨",
+          "url": "https://crowdworks.jp/public/jobs/13504401",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T21:20:23+09:00"
+        },
+        {
+          "id": "crowdworks-13534174",
+          "title": "【実績作りでもOK✨】📣 新オープンする美容エステのPRショート動画編集者募集！ | 長期継続あり◎",
+          "url": "https://crowdworks.jp/public/jobs/13534174",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T21:13:02+09:00"
+        },
+        {
+          "id": "crowdworks-13534055",
+          "title": "動画編集、フルテロップ、ビジネス系動画",
+          "url": "https://crowdworks.jp/public/jobs/13534055",
+          "budget": "5,000円〜10,000円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T19:52:09+09:00"
+        },
+        {
+          "id": "crowdworks-13320879",
+          "title": "【1500円/件】リールやTIkTok用のショート動画を編集するお仕事",
+          "url": "https://crowdworks.jp/public/jobs/13320879",
+          "budget": "0円〜5,000円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T19:47:22+09:00"
+        },
+        {
+          "id": "crowdworks-13533948",
+          "title": "YouTube漫画動画（新チャンネル）の編集をしていただける方を募集しております！",
+          "url": "https://crowdworks.jp/public/jobs/13533948",
+          "budget": "0円〜5,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T18:58:43+09:00"
+        },
+        {
+          "id": "crowdworks-13448680",
+          "title": "《今の働き方に新しい選択肢を✨》サウナの魅力をSNSで届ける｜ショート動画制作",
+          "url": "https://crowdworks.jp/public/jobs/13448680",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-21",
+          "postedAt": "2026-10-14T18:42:30+09:00"
+        },
+        {
+          "id": "crowdworks-13488890",
+          "title": "【長期継続可能！】YouTubeインバウンド向けの長尺旅行Vlog風ちゃんねるの動画の編集！！【1本5000円！！！】",
+          "url": "https://crowdworks.jp/public/jobs/13488890",
+          "budget": "5,000円〜10,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T18:19:07+09:00"
+        },
+        {
+          "id": "crowdworks-13533844",
+          "title": "ショート動画 実写/AI動画作成（経験者優遇） 単価数万~ 継続依頼あり",
+          "url": "https://crowdworks.jp/public/jobs/13533844",
+          "budget": "30,000円〜50,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T18:02:11+09:00"
+        },
+        {
+          "id": "crowdworks-13533635",
+          "title": "医療系の長尺素材（対談・密着など）からの要約・構成作成、テロップ、Bロール・図解挿入などの編集作業一式",
+          "url": "https://crowdworks.jp/public/jobs/13533635",
+          "budget": "〜33,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T16:30:41+09:00"
+        },
+        {
+          "id": "crowdworks-13533531",
+          "title": "【継続依頼あり】英語版動画の編集スタッフ募集！1本2,000円〜3,000円／動画編集経験者歓迎",
+          "url": "https://crowdworks.jp/public/jobs/13533531",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T16:09:27+09:00"
+        },
+        {
+          "id": "crowdworks-13533315",
+          "title": "【ショート動画編集・ディレクター】心霊・スピリチュアル系YouTubeのショート動画",
+          "url": "https://crowdworks.jp/public/jobs/13533315",
+          "budget": "予算は募集ページで確認",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T15:18:53+09:00"
+        },
+        {
+          "id": "crowdworks-13533264",
+          "title": "【継続案件】和訳ができる動画編集者様を探しています",
+          "url": "https://crowdworks.jp/public/jobs/13533264",
+          "budget": "予算は募集ページで確認",
+          "deadline": "2026-10-19",
+          "postedAt": "2026-10-14T14:54:54+09:00"
+        },
+        {
+          "id": "crowdworks-13533210",
+          "title": "【継続依頼】広告用ショート動画（1〜2分）の動画編集者募集｜将来的にディレクター登用あり",
+          "url": "https://crowdworks.jp/public/jobs/13533210",
+          "budget": "〜5,500円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T14:47:43+09:00"
+        },
+        {
+          "id": "crowdworks-13533214",
+          "title": "【コントアニメ】YouTubeショート動画の編集業務【1本5000円〜】",
+          "url": "https://crowdworks.jp/public/jobs/13533214",
+          "budget": "50,000円〜100,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T14:40:32+09:00"
+        },
+        {
+          "id": "crowdworks-13533160",
+          "title": "【1本400円〜】海外切り抜き経験者歓迎！西洋ドレス・歴史雑学ショート動画の台本作成＆編集★長期継続・昇給あり ！",
+          "url": "https://crowdworks.jp/public/jobs/13533160",
+          "budget": "5,000円〜10,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T14:29:32+09:00"
+        },
+        {
+          "id": "crowdworks-13533141",
+          "title": "【継続あり】ショート動画の編集をお手伝いいただける方募集【Premiere Pro必須】",
+          "url": "https://crowdworks.jp/public/jobs/13533141",
+          "budget": "0円〜5,000円",
+          "deadline": "2026-10-21",
+          "postedAt": "2026-10-14T14:29:31+09:00"
+        },
+        {
+          "id": "crowdworks-13532965",
+          "title": "【月10本以上の定期発注】TikTokに投稿するショート動画の編集担当募集（継続案件）",
+          "url": "https://crowdworks.jp/public/jobs/13532965",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T14:18:07+09:00"
+        },
+        {
+          "id": "crowdworks-13533092",
+          "title": "【顔出しあり！男性モデルさん募集】化粧品系モデル",
+          "url": "https://crowdworks.jp/public/jobs/13533092",
+          "budget": "5,000円〜10,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T13:59:02+09:00"
+        },
+        {
+          "id": "crowdworks-13533031",
+          "title": "ビジネス系YouTube動画編集 継続希望",
+          "url": "https://crowdworks.jp/public/jobs/13533031",
+          "budget": "〜9,900円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T13:34:11+09:00"
+        },
+        {
+          "id": "crowdworks-13533017",
+          "title": "YouTube用のAI動画の作成、編集ができる方を募集します",
+          "url": "https://crowdworks.jp/public/jobs/13533017",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-17",
+          "postedAt": "2026-10-14T13:28:42+09:00"
+        },
+        {
+          "id": "crowdworks-13533014",
+          "title": "【1本5000円】健康に関する動画編集者様を大募集！【主婦の方歓迎・長期案件】※最初はテスト採用",
+          "url": "https://crowdworks.jp/public/jobs/13533014",
+          "budget": "〜500円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T13:27:46+09:00"
+        },
+        {
+          "id": "crowdworks-13533007",
+          "title": "【顔出しあり！女性モデルさん募集】化粧品系モデル",
+          "url": "https://crowdworks.jp/public/jobs/13533007",
+          "budget": "5,000円〜10,000円",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T13:24:55+09:00"
+        },
+        {
+          "id": "crowdworks-13532830",
+          "title": "【継続案件】TikTokショート動画編集パートナー募集",
+          "url": "https://crowdworks.jp/public/jobs/13532830",
+          "budget": "予算は募集ページで確認",
+          "deadline": "2026-10-28",
+          "postedAt": "2026-10-14T12:59:59+09:00"
+        },
+        {
+          "id": "crowdworks-13532918",
+          "title": "【1本8,000円】ビジネス系YouTube動画の編集をお願いします！【主婦・副業歓迎】（継続対応いただける方優遇）",
+          "url": "https://crowdworks.jp/public/jobs/13532918",
+          "budget": "50,000円〜100,000円",
+          "deadline": "2026-10-18",
+          "postedAt": "2026-10-14T12:59:59+09:00"
+        }
+      ],
+      "lastSuccess": "2026-10-14T14:08:27.155Z",
       "lastAttempt": "2026-10-14T14:10:21.551Z",
       "error": "取得元の応答: HTTP 403",
-      "screeningPolicy": "cw-student-exclusions-20261014-v1"
+      "rawCount": 150,
+      "screeningPolicy": "cw-student-exclusions-20261014-v1",
+      "detailChecked": 58,
+      "excluded": {
+        "excluded_keyword": 45,
+        "unverifiable": 2,
+        "no_rating_or_contracts": 8,
+        "occupation_question": 4,
+        "beginner_inducements": 1,
+        "not_checked": 26
+      },
+      "initialSnapshotOrigin": "owner-session-public-fetch"
     }
   ]
 }
