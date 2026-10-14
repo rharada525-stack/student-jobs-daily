@@ -76,6 +76,8 @@ function parseCoconala_(html, now) {
 
 function hasEmptyResults_(html) { return /(?:該当する(?:仕事|案件|募集).{0,15}(?:ありません|見つかりません)|0\s*件中|該当件数.{0,10}0\s*件)/.test(cleanText_(html)); }
 function eligibleJob_(job, now) {
+  if (/(?:演者募集|出演者|出演モデル|撮影者募集|撮影のみ)/.test(job.title)) return false;
+  if (/(?:台本|歌詞|ライター|スライド|サムネイル|ナレーション|音声収録)/.test(job.title) && !/(?:編集|動画制作|動画作成|映像制作|映像作成|テロップ)/.test(job.title)) return false;
   if (!job.title || job.private || job.status !== 'released' || (job.deadline && job.deadline < jstDay_(now))) return false;
   if (/(?:インタビューに出て|インタビュー協力|素材提供|撮影モデル|モデル募集|ナレーター募集|声優募集|アンケート)/.test(job.title)) return false;
   if (!/(?:動画編集|映像編集|動画制作|動画作成|YouTube|youtube|ショート動画|Premiere|プレミア|カット編集|テロップ|字幕編集)/i.test(job.title+' '+job.filterText)) return false;
