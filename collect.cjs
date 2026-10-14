@@ -179,7 +179,13 @@ function parseCrowdworksEmployer_(html){
 }
 async function fetchPage(url,fetcher=fetch){
   const response=await fetcher(url,{signal:AbortSignal.timeout(25000),headers:{'User-Agent':'StudentJobLinkCollector/1.0 (+https://github.com/rharada525-stack/student-jobs-daily)'}});
-  if(response.status!==200)throw new Error('取得元の応答: HTTP '+response.status);
+  if(response.status!==200){
+    if(url.startsWith('https://www.lancers.jp/')&&response.status===405){
+      const body=await response.text();
+      console.log('Lancers response diagnostic: '+JSON.stringify({status:response.status,method:'GET',allow:response.headers?.get('allow'),server:response.headers?.get('server'),type:response.headers?.get('content-type'),title:cleanText_(body.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]||'').slice(0,120),challenge:/captcha|aliyun|acw_sc__|waf|challenge|verify.{0,12}human/i.test(body),length:body.length}));
+    }
+    throw new Error('取得元の応答: HTTP '+response.status);
+  }
   const html=await response.text();
   if(html.length<2000||html.length>4000000)throw new Error('取得元の内容を確認できませんでした');
   return html;
