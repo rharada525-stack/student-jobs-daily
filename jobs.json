@@ -1,13 +1,357 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-14T14:53:00.928Z",
+  "lastAttempt": "2026-10-14T16:49:17.899Z",
   "sources": [
     {
+      "id": "coconala_long",
+      "name": "ココナラ｜長期継続",
+      "automatic": true,
+      "url": "https://coconala.com/job_matching/outsources/jobs/3?job_keyword=%E5%8B%95%E7%94%BB%E7%B7%A8%E9%9B%86&feature_ids%5B%5D=6&is_recruiting=1",
+      "jobs": [
+        {
+          "id": "coconala-long-01M3M4V401R9PGHYWQD16339VP",
+          "title": "【東京・対面】ショート動画の撮影＋編集パートナー募集",
+          "url": "https://coconala.com/job_matching/outsources/01M3M4V401R9PGHYWQD16339VP",
+          "budget": "3,000 ~ 4,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01M3QWDE1NDWEJC64JK2E7SMQA",
+          "title": "【完全在宅】女性アイドルSNSのショート動画編集・企画業務をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01M3QWDE1NDWEJC64JK2E7SMQA",
+          "budget": "2,400 ~ 2,400 円／時間"
+        },
+        {
+          "id": "coconala-long-01M45HT5F2PR1NW6EQ4MSPE9KQ",
+          "title": "【完全在宅】レディースアパレルブランドのEC向け縦型動画の企画ディレクション・編集をお願いします！",
+          "url": "https://coconala.com/job_matching/outsources/01M45HT5F2PR1NW6EQ4MSPE9KQ",
+          "budget": "2,200 ~ 2,400 円／時間"
+        },
+        {
+          "id": "coconala-long-01M3X1FHDYF3733ZGSZH4066Q9",
+          "title": "【完全在宅／月20h】新規YouTube・SNS動画のカット・テロップ編集業務をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01M3X1FHDYF3733ZGSZH4066Q9",
+          "budget": "2,400 ~ 2,400 円／時間"
+        },
+        {
+          "id": "coconala-long-01M1C5RV0A0D5FW1XGF9XCJMM2",
+          "title": "【業務委託】秋葉原の男性医療クリニック専属で撮影と動画編集／「植毛」「男性器治療」2つのYouTubeチャンネル担当クリエイター募集",
+          "url": "https://coconala.com/job_matching/outsources/01M1C5RV0A0D5FW1XGF9XCJMM2",
+          "budget": "30 ~ 45 万円／月"
+        },
+        {
+          "id": "coconala-long-01KZTQQYMC6WZWZXPW8QHS04PV",
+          "title": "【急募！完全在宅】配信コンテンツの動画編集クリエイター（アイドル、ゲーム、アニメなどの切り抜き・エンタメ動画）募集！！",
+          "url": "https://coconala.com/job_matching/outsources/01KZTQQYMC6WZWZXPW8QHS04PV",
+          "budget": "2,000 ~ 3,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KYH7213DJ7ET1NXB9C9YKKBK",
+          "title": "【完全在宅！時間自由！】企画・撮影・編集担当募集_TikTok動画クリエイター",
+          "url": "https://coconala.com/job_matching/outsources/01KYH7213DJ7ET1NXB9C9YKKBK",
+          "budget": "2,200 ~ 2,400 円／時間"
+        },
+        {
+          "id": "coconala-long-01KWV5FT60362M7FSJQF6K4V9A",
+          "title": "【月40h】Instagramクリエイティブ制作（写真・動画撮影編集）＆アカウント運用をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01KWV5FT60362M7FSJQF6K4V9A",
+          "budget": "2,400 ~ 2,700 円／時間"
+        },
+        {
+          "id": "coconala-long-01KWTGR95D1PMKKSR3295KM7AR",
+          "title": "【高単価！】飲食店を複数展開する企業にて、店舗プロモーション用の写真・動画撮影およびSNSリール編集業務をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01KWTGR95D1PMKKSR3295KM7AR",
+          "budget": "3,000 ~ 3,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KXQBX5A2YPA04FPARFT312PK",
+          "title": "【急募/フルリモート】AD動画クリエイティブ制作者募集",
+          "url": "https://coconala.com/job_matching/outsources/01KXQBX5A2YPA04FPARFT312PK",
+          "budget": "2,500 ~ 3,500 円／時間"
+        },
+        {
+          "id": "coconala-long-01KZZBXCMAGFHVMHD1HHMJK24M",
+          "title": "【完全在宅／月40h】新規BtoB事業ローンチに向けたYouTubeアニメーション動画制作をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01KZZBXCMAGFHVMHD1HHMJK24M",
+          "budget": "2,400 ~ 2,700 円／時間"
+        },
+        {
+          "id": "coconala-long-01KVPKM4H0BTV20MTF18BGKBY2",
+          "title": "【継続依頼】映像クリエイター募集",
+          "url": "https://coconala.com/job_matching/outsources/01KVPKM4H0BTV20MTF18BGKBY2",
+          "budget": "5 ~ 10 万円／月"
+        },
+        {
+          "id": "coconala-long-01KZ7W488TT60V2KT0921BRCMB",
+          "title": "【完全在宅！時間自由！】ゴルフチャンネル立ち上げメンバー募集！_YouTube運用経験者歓迎",
+          "url": "https://coconala.com/job_matching/outsources/01KZ7W488TT60V2KT0921BRCMB",
+          "budget": "2,400 ~ 3,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KZGQY0A78H8HBD9NVHKY5X4D",
+          "title": "【顔出し不要】 Liverとして配信していただける方、男女問わず募集しております。",
+          "url": "https://coconala.com/job_matching/outsources/01KZGQY0A78H8HBD9NVHKY5X4D",
+          "budget": "1,000 ~ 1,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KWTRT1GKS53JAQC1XD2AFAGN",
+          "title": "エンタメ系YouTubeチャンネルの質疑応答企画参加者を募集します",
+          "url": "https://coconala.com/job_matching/outsources/01KWTRT1GKS53JAQC1XD2AFAGN",
+          "budget": "2,000 ~ 4,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KVW5W4B5AMNBV31PVD69YCGZ",
+          "title": "【完全在宅！時間自由！】YouTubeディレクター募集_企画から分析まで！",
+          "url": "https://coconala.com/job_matching/outsources/01KVW5W4B5AMNBV31PVD69YCGZ",
+          "budget": "2,600 ~ 3,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01JP97Q1P7RVMX0S9XM78KEWGH",
+          "title": "動画編集 TikTok Instagramリール動画",
+          "url": "https://coconala.com/job_matching/outsources/01JP97Q1P7RVMX0S9XM78KEWGH",
+          "budget": "10 ~ 20 万円／月"
+        },
+        {
+          "id": "coconala-long-01KBA11RQ6PKXDY9FGGGZ1JCFA",
+          "title": "YouTube動画編集ディレクターを募集します",
+          "url": "https://coconala.com/job_matching/outsources/01KBA11RQ6PKXDY9FGGGZ1JCFA",
+          "budget": "1,000 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KAAVZJS94QF5HC7JSS55DVZ5",
+          "title": "整体系YouTuber動画編集者募集",
+          "url": "https://coconala.com/job_matching/outsources/01KAAVZJS94QF5HC7JSS55DVZ5",
+          "budget": "4 ~ 4 万円／月"
+        },
+        {
+          "id": "coconala-long-01K9A7XDY9WC91HN6B6YV7C1SC",
+          "title": "YouTube動画編集ディレクターを募集します",
+          "url": "https://coconala.com/job_matching/outsources/01K9A7XDY9WC91HN6B6YV7C1SC",
+          "budget": "800 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KGPDBNFYP35P605XP8S6WVZA",
+          "title": "就労移行支援事業で動画編集講師を募集します",
+          "url": "https://coconala.com/job_matching/outsources/01KGPDBNFYP35P605XP8S6WVZA",
+          "budget": "1,200 ~ 1,500 円／時間"
+        },
+        {
+          "id": "coconala-long-01J81FYMD7F7D7DT6J4VRQ7BTE",
+          "title": "YouTube動画の編集をお任せします！複数名募集！",
+          "url": "https://coconala.com/job_matching/outsources/01J81FYMD7F7D7DT6J4VRQ7BTE",
+          "budget": "12 ~ 32 万円／月"
+        },
+        {
+          "id": "coconala-long-01K8ZNTRTQBXB0W1CE4BKT1FR9",
+          "title": "YouTubeチャンネル等の動画編集及びサムネイル担当者を募集します",
+          "url": "https://coconala.com/job_matching/outsources/01K8ZNTRTQBXB0W1CE4BKT1FR9",
+          "budget": "10 ~ 15 万円／月"
+        },
+        {
+          "id": "coconala-long-01J177ADYW413CKYRV2QN4FYVN",
+          "title": "YouTube 動画編集継続案件（チャンネルをお任せできる方）",
+          "url": "https://coconala.com/job_matching/outsources/01J177ADYW413CKYRV2QN4FYVN",
+          "budget": "4 ~ 10 万円／月"
+        },
+        {
+          "id": "coconala-long-01JSC74AYH073R41NR71QK6SEN",
+          "title": "2Ch面白スレッドの動画編集をお任せできる方",
+          "url": "https://coconala.com/job_matching/outsources/01JSC74AYH073R41NR71QK6SEN",
+          "budget": "4 ~ 5 万円／月"
+        },
+        {
+          "id": "coconala-long-01K92P03TRXKARJT36YWXXNETM",
+          "title": "YouTubeチャンネルの動画編集とサムネイル制作担当者を募集します",
+          "url": "https://coconala.com/job_matching/outsources/01K92P03TRXKARJT36YWXXNETM",
+          "budget": "10 ~ 15 万円／月"
+        },
+        {
+          "id": "coconala-long-01KQ7KV4R7Z5PM16KTCPDCJYDB",
+          "title": "【投資経験者歓迎！】バイナリーオプション・FX・投資系 弊社YouTube動画編集者募集！",
+          "url": "https://coconala.com/job_matching/outsources/01KQ7KV4R7Z5PM16KTCPDCJYDB",
+          "budget": "3,000 ~ 5,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01K518A84QE44BV37MVCZSMWY8",
+          "title": "【報酬：48,000円以上！】動画のモザイク編集スタッフ｜高時給2,000円×継続で安定収入",
+          "url": "https://coconala.com/job_matching/outsources/01K518A84QE44BV37MVCZSMWY8",
+          "budget": "2,000 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KKKJBP5WH28K0WAMG96TGMNP",
+          "title": "【継続案件】 ショート動画編集者募集｜月20本以上安定供給｜未経験可",
+          "url": "https://coconala.com/job_matching/outsources/01KKKJBP5WH28K0WAMG96TGMNP",
+          "budget": "1,000 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KKX48PFRKT6YFWGM3WV4B17Q",
+          "title": "ゲーム配信者がバズるキル集やショート動画などを編集します！ほかより安く考えています！お願いいたします🙇‍♀️",
+          "url": "https://coconala.com/job_matching/outsources/01KKX48PFRKT6YFWGM3WV4B17Q",
+          "budget": "3,000 ~ 30,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KHZBRZ7D7AXGD9KYMR1VC5NZ",
+          "title": "【YouTube登録10万越え】日常系Vlogコンテンツの動画編集／Premire Pro（英語字幕あり／週1本程度）",
+          "url": "https://coconala.com/job_matching/outsources/01KHZBRZ7D7AXGD9KYMR1VC5NZ",
+          "budget": "2,000 ~ 3,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01J7N3HTK5EV5SJJ3M13YP7BWR",
+          "title": "TikTokで動画撮影（動画の提供）",
+          "url": "https://coconala.com/job_matching/outsources/01J7N3HTK5EV5SJJ3M13YP7BWR",
+          "budget": "20 ~ 50 万円／月"
+        },
+        {
+          "id": "coconala-long-01K6YBVJ2TQVE1XHN2GNC8FD98",
+          "title": "SNSリール動画の企画！簡単な編集を一緒にしてくれる方大募集！学生さんやSNS得意な方大歓迎！",
+          "url": "https://coconala.com/job_matching/outsources/01K6YBVJ2TQVE1XHN2GNC8FD98",
+          "budget": "1,500 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KTTGHQADEK8ESSPFMEE9HVGZ",
+          "title": "【完全在宅！】映像制作の企業（広告映像制作等を展開する企業）にて、高級車紹介YouTubeチャンネルの動画編集業務をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01KTTGHQADEK8ESSPFMEE9HVGZ",
+          "budget": "2,400 ~ 2,700 円／時間"
+        },
+        {
+          "id": "coconala-long-01JF7C55Q1EA5N6ME0H8G8W0M7",
+          "title": "オンラインで現在ある１分程度の動画にキャラクター動画をはめ込無仕事",
+          "url": "https://coconala.com/job_matching/outsources/01JF7C55Q1EA5N6ME0H8G8W0M7",
+          "budget": "1,500 ~ 2,500 円／時間"
+        },
+        {
+          "id": "coconala-long-01KKZTVW0Z4VTAK6M29AXWA3Q9",
+          "title": "【急募】フルリモート/動画デザイナー",
+          "url": "https://coconala.com/job_matching/outsources/01KKZTVW0Z4VTAK6M29AXWA3Q9",
+          "budget": "20 ~ 25 万円／月"
+        },
+        {
+          "id": "coconala-long-01HZ2ZW9KG1QY7W21KEE5P770F",
+          "title": "高時給5000円 経験者優遇 ショート動画 曲に合わせたアニメ風ダンス動画生成依頼",
+          "url": "https://coconala.com/job_matching/outsources/01HZ2ZW9KG1QY7W21KEE5P770F",
+          "budget": "1,500 ~ 5,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01KHWNRPHQA296HPGGXJVP5JKC",
+          "title": "ゲーム切り抜きチャンネルの動画制作スタッフ募集",
+          "url": "https://coconala.com/job_matching/outsources/01KHWNRPHQA296HPGGXJVP5JKC",
+          "budget": "5 ~ 10 万円／月"
+        },
+        {
+          "id": "coconala-long-01J7FZ42NGAAYXA9RXVD9G73TF",
+          "title": "Tiktok用ダンス動画の作成をお願いします",
+          "url": "https://coconala.com/job_matching/outsources/01J7FZ42NGAAYXA9RXVD9G73TF",
+          "budget": "1,500 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01JB15D13TTTNRXXZPWC4FDQRA",
+          "title": "追加 継続業務 YouTube社会派ドキュメンタリーチャンネルの撮影・編集スタッフ募集！",
+          "url": "https://coconala.com/job_matching/outsources/01JB15D13TTTNRXXZPWC4FDQRA",
+          "budget": "6 ~ 50 万円／月"
+        },
+        {
+          "id": "coconala-long-01KBFKJ8DYE6ZVFQ0X97KJRX94",
+          "title": "【２ch反応集】ゆっくり動画の作成と投稿をお願い致します",
+          "url": "https://coconala.com/job_matching/outsources/01KBFKJ8DYE6ZVFQ0X97KJRX94",
+          "budget": "4 ~ 8 万円／月"
+        },
+        {
+          "id": "coconala-long-01K3K3HWJ0QVN2556J16WRN25Q",
+          "title": "YouTubeチャンネルの動画制作全般を担当できる方を募集します",
+          "url": "https://coconala.com/job_matching/outsources/01K3K3HWJ0QVN2556J16WRN25Q",
+          "budget": "4 ~ 6 万円／月"
+        },
+        {
+          "id": "coconala-long-01K8JZ7KFHP19VBSNS7JG249N9",
+          "title": "SNS運用・動画撮影／会社PR・施工事例紹介（週2〜・宇都宮／時給1,500〜2,500円）",
+          "url": "https://coconala.com/job_matching/outsources/01K8JZ7KFHP19VBSNS7JG249N9",
+          "budget": "1,500 ~ 2,500 円／時間"
+        },
+        {
+          "id": "coconala-long-01JRY9QVAX14R6KJA2M2FXMFXY",
+          "title": "【安定収入/月25万円〜】建設会社のSNS,YouTube動画制作と運用をお任せします",
+          "url": "https://coconala.com/job_matching/outsources/01JRY9QVAX14R6KJA2M2FXMFXY",
+          "budget": "2,000 ~ 5,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01JWEGH841R733MANS7YQK212C",
+          "title": "【美容クリニックSNS撮影】都内｜ショート動画撮影経験者募集｜時給1,500円＋交通費◎",
+          "url": "https://coconala.com/job_matching/outsources/01JWEGH841R733MANS7YQK212C",
+          "budget": "1,000 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01K2BJQ3JYTRK6C77RNR4BMCCM",
+          "title": "SNS運用サポート業務を担当する方を募集します。動画の作り方はもちろん、フォロワーを増やして可能であれば収益化したいです。",
+          "url": "https://coconala.com/job_matching/outsources/01K2BJQ3JYTRK6C77RNR4BMCCM",
+          "budget": "2,000 ~ 4,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01J5DPH00D0HPJSYH6T6R53248",
+          "title": "②イラストソフト（CLIPSTUDIO等）での画像（文字の修正が主）修正、又は②動画修正（FINAL CUT Pro等で）",
+          "url": "https://coconala.com/job_matching/outsources/01J5DPH00D0HPJSYH6T6R53248",
+          "budget": "1,500 ~ 1,500 円／時間"
+        },
+        {
+          "id": "coconala-long-01K9NZ0TCQB0JF10BQHNB53N7Z",
+          "title": "SNSアカウント運用・コンテンツ制作を担う方を募集します",
+          "url": "https://coconala.com/job_matching/outsources/01K9NZ0TCQB0JF10BQHNB53N7Z",
+          "budget": "2,000 ~ 3,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01K5GX59B25J63SJEE25FMH3HE",
+          "title": "経営者の思想を発信するSNSパートナー募集",
+          "url": "https://coconala.com/job_matching/outsources/01K5GX59B25J63SJEE25FMH3HE",
+          "budget": "3,000 ~ 4,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01JKSYMXFFRJ5G9R38XNN7GPTJ",
+          "title": "【未経験大歓迎】無料コンサル付きのYouTubeディレクター業務",
+          "url": "https://coconala.com/job_matching/outsources/01JKSYMXFFRJ5G9R38XNN7GPTJ",
+          "budget": "10 ~ 50 万円／月"
+        },
+        {
+          "id": "coconala-long-01K8Q9VV9C19NX7YA4XPDPD397",
+          "title": "ライブコマースの販売担当者を募集します（顔出しあり・初心者歓迎・研修あり）",
+          "url": "https://coconala.com/job_matching/outsources/01K8Q9VV9C19NX7YA4XPDPD397",
+          "budget": "1,200 ~ 2,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01JE2NH4Y9BQSEVTMYDD997TEK",
+          "title": "【女性限定】AIインフルエンサー",
+          "url": "https://coconala.com/job_matching/outsources/01JE2NH4Y9BQSEVTMYDD997TEK",
+          "budget": "30 ~ 80 万円／月"
+        },
+        {
+          "id": "coconala-long-01JVR90TWS04T0ERMTHSCC933S",
+          "title": "TikTok配信でハイブラン高級ブランドの靴・バッグ・キャリーケースなどを紹介していただきます！",
+          "url": "https://coconala.com/job_matching/outsources/01JVR90TWS04T0ERMTHSCC933S",
+          "budget": "100 ~ 500 万円／月"
+        },
+        {
+          "id": "coconala-long-01J6R6160Q4XZPQHE5TYV827RQ",
+          "title": "定期案件 日本の伝統文化「ものづくり」「職人」をテーマにしたYouTubeドキュメンタリーチャンネル",
+          "url": "https://coconala.com/job_matching/outsources/01J6R6160Q4XZPQHE5TYV827RQ",
+          "budget": "50 ~ 50 万円／月"
+        }
+      ],
+      "lastSuccess": "2026-10-14T16:49:17.899Z",
+      "lastAttempt": "2026-10-14T16:49:17.899Z",
+      "error": null,
+      "rawCount": 64
+    },
+    {
       "id": "coconala",
-      "name": "ココナラ",
+      "name": "ココナラ｜単発・スポット",
       "automatic": true,
       "url": "https://coconala.com/requests/categories/10?recruiting=true",
       "jobs": [
+        {
+          "id": "coconala-5326078",
+          "title": "【継続あり】縦型ショート動画のテロップ・BGM・音声読み上げ（15本）",
+          "url": "https://coconala.com/requests/5326078",
+          "budget": "3,000円",
+          "deadline": "2026-10-21",
+          "postedAt": "2026-10-15T00:11:00+09:00"
+        },
         {
           "id": "coconala-5325985",
           "title": "ミュージックビデオの映像編集ができる方を募集します",
@@ -201,14 +545,6 @@
           "postedAt": "2026-10-10T13:21:00+09:00"
         },
         {
-          "id": "coconala-5318052",
-          "title": "【動画編集者募集】高級ヘアケアブランドのInstagramリール広告（15秒）制作",
-          "url": "https://coconala.com/requests/5318052",
-          "budget": "5千円〜1万円",
-          "deadline": "2026-10-14",
-          "postedAt": "2026-10-10T12:58:00+09:00"
-        },
-        {
           "id": "coconala-5317870",
           "title": "構成から編集まで〜SNS向けショート動画編集ができる方を募集します｜Premiere Pro必須",
           "url": "https://coconala.com/requests/5317870",
@@ -247,14 +583,6 @@
           "budget": "見積り希望",
           "deadline": "2026-10-18",
           "postedAt": "2026-10-08T10:57:00+09:00"
-        },
-        {
-          "id": "coconala-5313034",
-          "title": "スーツケースプロモ動画編集者募集！AIで魅力を最大化",
-          "url": "https://coconala.com/requests/5313034",
-          "budget": "10,000円",
-          "deadline": "2026-10-14",
-          "postedAt": "2026-10-07T16:06:00+09:00"
         },
         {
           "id": "coconala-5310800",
@@ -303,53 +631,12 @@
           "budget": "見積り希望",
           "deadline": "2026-10-18",
           "postedAt": "2026-10-04T00:59:00+09:00"
-        },
-        {
-          "id": "coconala-5300767",
-          "title": "【After Effects】TikTok向けアニメショート動画の編集代行をしていただける方募集",
-          "url": "https://coconala.com/requests/5300767",
-          "budget": "1万円〜3万円",
-          "deadline": "2026-10-14",
-          "postedAt": "2026-09-30T23:47:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T14:53:00.928Z",
-      "lastAttempt": "2026-10-14T14:53:00.928Z",
+      "lastSuccess": "2026-10-14T16:49:17.899Z",
+      "lastAttempt": "2026-10-14T16:49:17.899Z",
       "error": null,
-      "rawCount": 42
-    },
-    {
-      "id": "lancers",
-      "name": "ランサーズ",
-      "automatic": true,
-      "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started",
-      "jobs": [
-        {
-          "id": "lancers-5595898",
-          "title": "【長期 10,000円/本】科学系ゆっくり動画の編集者募集の仕事",
-          "url": "https://www.lancers.jp/work/detail/5595898",
-          "budget": "300,000 円 ~ 500,000 円 / 固定"
-        },
-        {
-          "id": "lancers-5616015",
-          "title": "【長期継続・月間27万〜33万円規模】YouTube・広告動画の編集者募集！",
-          "url": "https://www.lancers.jp/work/detail/5616015",
-          "budget": "10,000 円 ~ 20,000 円 / 固定"
-        },
-        {
-          "id": "lancers-5615734",
-          "title": "【30秒〜1分程度の動画】商品紹介の動画編集・クリエイター募集",
-          "url": "https://www.lancers.jp/work/detail/5615734",
-          "budget": "20,000 円 ~ 50,000 円 / 固定"
-        }
-      ],
-      "lastSuccess": "2026-10-14T16:32:57.467Z",
-      "lastAttempt": "2026-10-14T16:32:57.467Z",
-      "error": "クラウド自動更新は未復旧。通常ブラウザで募集中の3件を確認しました。",
-      "rawCount": 30,
-      "detailChecked": 7,
-      "updateMethod": "manual-browser",
-      "manualVerifiedAt": "2026-10-14T16:32:57.467Z"
+      "rawCount": 41
     },
     {
       "id": "mamaworks",
@@ -520,10 +807,42 @@
           "budget": "時間単価：1,300円〜（税込）"
         }
       ],
-      "lastSuccess": "2026-10-14T14:53:00.928Z",
-      "lastAttempt": "2026-10-14T14:53:00.928Z",
+      "lastSuccess": "2026-10-14T16:49:17.899Z",
+      "lastAttempt": "2026-10-14T16:49:17.899Z",
       "error": null,
       "rawCount": 33
+    },
+    {
+      "id": "lancers",
+      "name": "ランサーズ",
+      "automatic": false,
+      "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started",
+      "description": "動画編集の最新募集を公式サイトで探せます。",
+      "jobs": []
+    },
+    {
+      "id": "anotherworks",
+      "name": "複業クラウド",
+      "automatic": false,
+      "url": "https://talent.aw-anotherworks.com/",
+      "description": "複業・業務委託のマッチングサービスです。案件探しは公式サイトからログインして進めてください。",
+      "jobs": []
+    },
+    {
+      "id": "wantedly",
+      "name": "Wantedly",
+      "automatic": false,
+      "url": "https://www.wantedly.com/projects?hiringTypes=side_job&jp__design_and_art=jp__video_creator&new=true&occupationTypes=jp__design_and_art&order=mixed",
+      "description": "動画クリエイター・副業の募集を探せます。報酬や稼働条件は募集先に確認してください。",
+      "jobs": []
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "automatic": false,
+      "url": "https://jp.indeed.com/q-%E5%8B%95%E7%94%BB%E7%B7%A8%E9%9B%86-%E5%9C%A8%E5%AE%85-%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97-%E6%B1%82%E4%BA%BA.html",
+      "description": "「動画編集・在宅・業務委託」で求人を探せます。雇用形態や勤務場所は各募集で確認してください。",
+      "jobs": []
     },
     {
       "id": "crowdworks",
@@ -548,20 +867,20 @@
           "postedAt": "2026-10-14T13:27:46+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T14:53:00.928Z",
-      "lastAttempt": "2026-10-14T14:53:00.928Z",
+      "lastSuccess": "2026-10-14T16:49:17.899Z",
+      "lastAttempt": "2026-10-14T16:49:17.899Z",
       "error": null,
-      "rawCount": 149,
+      "rawCount": 150,
       "screeningPolicy": "cw-student-exclusions-20261014-v2-video-reference",
-      "detailChecked": 58,
+      "detailChecked": 57,
       "excluded": {
-        "excluded_keyword": 45,
-        "no_reference_video": 31,
-        "unverifiable": 2,
+        "excluded_keyword": 48,
+        "unverifiable": 3,
+        "no_reference_video": 30,
         "occupation_question": 4,
         "no_rating_or_contracts": 4,
         "beginner_inducements": 1,
-        "not_checked": 24
+        "not_checked": 22
       }
     }
   ]
