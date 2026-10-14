@@ -7,22 +7,50 @@ const JOB_SETTINGS={
   "maxJobsPerSource": 60,
   "sources": [
     {
-      "id": "coconala",
-      "name": "ココナラ",
+      "id": "coconala_long",
+      "name": "ココナラ｜長期継続",
       "automatic": true,
-      "url": "https://coconala.com/requests/categories/10?recruiting=true"
+      "url": "https://coconala.com/job_matching/outsources/jobs/3?job_keyword=%E5%8B%95%E7%94%BB%E7%B7%A8%E9%9B%86&feature_ids%5B%5D=6&is_recruiting=1"
     },
     {
-      "id": "lancers",
-      "name": "ランサーズ",
+      "id": "coconala",
+      "name": "ココナラ｜単発・スポット",
       "automatic": true,
-      "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started"
+      "url": "https://coconala.com/requests/categories/10?recruiting=true"
     },
     {
       "id": "mamaworks",
       "name": "ママワークス",
       "automatic": true,
       "url": "https://mamaworks.jp/jobs?lrj%5Brecruitmentjob_id%5D%5B0%5D=400"
+    },
+    {
+      "id": "lancers",
+      "name": "ランサーズ",
+      "automatic": false,
+      "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started",
+      "description": "動画編集の最新募集を公式サイトで探せます。"
+    },
+    {
+      "id": "anotherworks",
+      "name": "複業クラウド",
+      "automatic": false,
+      "url": "https://talent.aw-anotherworks.com/",
+      "description": "複業・業務委託のマッチングサービスです。案件探しは公式サイトからログインして進めてください。"
+    },
+    {
+      "id": "wantedly",
+      "name": "Wantedly",
+      "automatic": false,
+      "url": "https://www.wantedly.com/projects?hiringTypes=side_job&jp__design_and_art=jp__video_creator&new=true&occupationTypes=jp__design_and_art&order=mixed",
+      "description": "動画クリエイター・副業の募集を探せます。報酬や稼働条件は募集先に確認してください。"
+    },
+    {
+      "id": "indeed",
+      "name": "Indeed",
+      "automatic": false,
+      "url": "https://jp.indeed.com/q-%E5%8B%95%E7%94%BB%E7%B7%A8%E9%9B%86-%E5%9C%A8%E5%AE%85-%E6%A5%AD%E5%8B%99%E5%A7%94%E8%A8%97-%E6%B1%82%E4%BA%BA.html",
+      "description": "「動画編集・在宅・業務委託」で求人を探せます。雇用形態や勤務場所は各募集で確認してください。"
     },
     {
       "id": "crowdworks",
@@ -74,6 +102,19 @@ function parseCoconala_(html, now) {
   }).filter(Boolean);
 }
 
+function parseCoconalaLong_(html) {
+  const blocks=html.replace(/<script\b[\s\S]*?<\/script>/gi,'').split(/data-testid=["']outsource-card["'][^>]*>/).slice(1);
+  if(!blocks.length&&!hasEmptyResults_(html))throw new Error('ココナラ継続案件の一覧形式が変わりました');
+  return blocks.map(block=>{
+    const id=block.match(/href=["']\/job_matching\/outsources\/([0-9A-HJKMNP-TV-Z]{26})["']/);
+    const title=block.match(/<h3\b[^>]*>([\s\S]*?)<\/h3>/);
+    if(!id||!title)return null;
+    const plain=cleanText_(block),budget=plain.match(/(?:^|\s)報酬\s+([\s\S]{1,100}?)\s*稼働日数/);
+    // Search can also match descriptions of non-video roles. Use only the visible category/title.
+    const category=cleanText_(block.slice(0,block.indexOf('<h3'))).replace('求人詳細を見る','').trim();
+    return {id:'coconala-long-'+id[1],title:cleanText_(title[1]),url:'https://coconala.com/job_matching/outsources/'+id[1],budget:budget?budget[1].replace(/\s*\/\s*/g,'／').slice(0,100):'報酬は募集ページで確認',deadline:'',postedAt:'',status:/募集終了|受付終了/.test(plain)?'closed':'released',private:false,filterText:category};
+  }).filter(Boolean);
+}
 function hasEmptyResults_(html) { return /(?:該当する(?:仕事|案件|募集).{0,15}(?:ありません|見つかりません)|0\s*件中|該当件数.{0,10}0\s*件)/.test(cleanText_(html)); }
 function eligibleJob_(job, now) {
   if (/(?:演者募集|出演者|出演モデル|撮影者募集|撮影のみ)/.test(job.title)) return false;
@@ -86,7 +127,7 @@ function eligibleJob_(job, now) {
 }
 function publicJob_(job) {
   const basic={id:job.id,title:job.title,url:job.url,budget:job.budget};
-  return /^(?:lancers|mamaworks)-/.test(job.id)?basic:{...basic,deadline:job.deadline,postedAt:job.postedAt};
+  return /^(?:lancers|mamaworks|coconala-long)-/.test(job.id)?basic:{...basic,deadline:job.deadline,postedAt:job.postedAt};
 }
 function decodeHtml_(value) { return String(value || '').replace(/&(?:quot|apos|amp|lt|gt|nbsp);|&#(?:x[\da-f]+|\d+);/gi, token => { const map={'&quot;':'"','&apos;':"'",'&amp;':'&','&lt;':'<','&gt;':'>','&nbsp;':' '}; if(map[token.toLowerCase()]!=null) return map[token.toLowerCase()]; return String.fromCodePoint(token[2].toLowerCase()==='x'?parseInt(token.slice(3,-1),16):parseInt(token.slice(2,-1),10)); }); }
 function cleanText_(value) { return decodeHtml_(String(value || '').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim(); }
@@ -96,7 +137,7 @@ function jstDay_(date) { return new Date(date.getTime()+9*60*60*1000).toISOStrin
 // Only card metadata is published. Descriptions and employer statistics remain in memory.
 const CW_POLICY='cw-student-exclusions-20261014-v2-video-reference';
 const CW_EXCLUDED_WORDS=['既婚','未婚','結婚','独立','20代','学生','実家','子供','一人暮らし','雇用形態','スクール','精神疾患','未経験','初心者'];
-const JOB_URLS={coconala:/^https:\/\/coconala\.com\/requests\/\d+$/,crowdworks:/^https:\/\/crowdworks\.jp\/public\/jobs\/\d+$/,lancers:/^https:\/\/www\.lancers\.jp\/work\/detail\/\d+$/,mamaworks:/^https:\/\/mamaworks\.jp\/job\/\d+$/};
+const JOB_URLS={coconala_long:/^https:\/\/coconala\.com\/job_matching\/outsources\/[0-9A-HJKMNP-TV-Z]{26}$/,coconala:/^https:\/\/coconala\.com\/requests\/\d+$/,crowdworks:/^https:\/\/crowdworks\.jp\/public\/jobs\/\d+$/,lancers:/^https:\/\/www\.lancers\.jp\/work\/detail\/\d+$/,mamaworks:/^https:\/\/mamaworks\.jp\/job\/\d+$/};
 function compactText(value){return cleanText_(decodeHtml_(value)).normalize('NFKC').replace(/[\s\u200b-\u200d\ufeff]/g,'');}
 function crowdworksExclusion(title,body){
   const text=compactText(title+' '+body);
@@ -201,11 +242,11 @@ async function update(previous,now=new Date(),fetcher=fetch,pause=ms=>new Promis
       const pages=source.id==='mamaworks'?1:JOB_SETTINGS.pages;
       for(let page=1;page<=pages;page++){
         const html=await fetchPage(source.url+(source.id==='mamaworks'?'':'&page='+page),fetcher);
-        const parsed=source.id==='crowdworks'?parseCrowdworks_(html):source.id==='coconala'?parseCoconala_(html,now):source.id==='lancers'?parseLancers_(html,now):parseMamaworks_(html);
+        const parsed=source.id==='crowdworks'?parseCrowdworks_(html):source.id==='coconala_long'?parseCoconalaLong_(html):source.id==='coconala'?parseCoconala_(html,now):parseMamaworks_(html);
         if(!parsed.length&&page===1&&!hasEmptyResults_(html))throw new Error('案件一覧の形式を確認できませんでした');
         rawCount+=parsed.length;
         for(const job of parsed){if(seen.has(job.id))continue;seen.add(job.id);if(!eligibleJob_(job,now)||!JOB_URLS[source.id].test(job.url))continue;if(source.id==='crowdworks'){const reason=crowdworksExclusion(job.title,job.filterText);if(reason)countExcluded(reason);else candidates.push(job);}else jobs.push(job);}
-        if(!parsed.length||parsed.length<(source.id==='coconala'?40:source.id==='lancers'?30:50))break;
+        if(!parsed.length||parsed.length<(['coconala','coconala_long'].includes(source.id)?40:50))break;
         if(page<JOB_SETTINGS.pages)await pause(1500);
       }
       let detailChecked=0;
@@ -245,6 +286,6 @@ async function main(){
   console.log(JSON.stringify(state.sources.map(s=>({source:s.id,count:s.jobs.length,lastSuccess:s.lastSuccess,error:s.error||null})),null,2));
   if(state.sources.some(s=>s.automatic&&s.error))process.exitCode=1;
 }
-module.exports={update,JOB_SETTINGS,parseCrowdworks_,parseCoconala_,parseLancers_,parseMamaworks_,parseCrowdworksDetail_,parseCrowdworksEmployer_,hasReferenceVideo_,crowdworksExclusion,CW_EXCLUDED_WORDS,CW_POLICY,eligibleJob_,publicJob_,fetchPage};
+module.exports={update,JOB_SETTINGS,parseCrowdworks_,parseCoconala_,parseCoconalaLong_,parseLancers_,parseMamaworks_,parseCrowdworksDetail_,parseCrowdworksEmployer_,hasReferenceVideo_,crowdworksExclusion,CW_EXCLUDED_WORDS,CW_POLICY,eligibleJob_,publicJob_,fetchPage};
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
 
