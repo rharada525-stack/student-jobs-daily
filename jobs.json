@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-14T11:20:28.836Z",
+  "lastAttempt": "2026-10-14T14:10:21.551Z",
   "sources": [
     {
       "id": "coconala",
@@ -305,516 +305,205 @@
           "postedAt": "2026-09-30T23:47:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-14T11:20:28.836Z",
-      "lastAttempt": "2026-10-14T11:20:28.836Z",
+      "lastSuccess": "2026-10-14T14:10:21.551Z",
+      "lastAttempt": "2026-10-14T14:10:21.551Z",
       "error": null,
       "rawCount": 41
     },
     {
       "id": "lancers",
       "name": "ランサーズ",
-      "automatic": false,
+      "automatic": true,
       "url": "https://www.lancers.jp/work/search/multimedia/video?sort=started",
-      "jobs": []
+      "jobs": [],
+      "lastSuccess": null,
+      "lastAttempt": "2026-10-14T14:10:21.551Z",
+      "error": "取得元の応答: HTTP 405"
     },
     {
       "id": "mamaworks",
       "name": "ママワークス",
-      "automatic": false,
-      "url": "https://mamaworks.jp/list?lrj%5Brecruitmentjob_id%5D%5B0%5D=400",
-      "jobs": []
+      "automatic": true,
+      "url": "https://mamaworks.jp/jobs?lrj%5Brecruitmentjob_id%5D%5B0%5D=400",
+      "jobs": [
+        {
+          "id": "mamaworks-39252",
+          "title": "【完全在宅・未経験OK】Instagramリールの動画編集｜SNS運用サポート",
+          "url": "https://mamaworks.jp/job/39252",
+          "budget": "動画1本1,500円（税込) 〜 ※ご対応いただく作業量に応じて変動いたします。"
+        },
+        {
+          "id": "mamaworks-39177",
+          "title": "住宅×ショート動画の編集スキルを在宅で活かす！InstagramリールやYouTubeショート編集スタッフ募集",
+          "url": "https://mamaworks.jp/job/39177",
+          "budget": "時間単価 1,500円（税込）"
+        },
+        {
+          "id": "mamaworks-39162",
+          "title": "【動画編集】アニメ制作会社の動画編集担当を募集★After Effects・VFX経験者歓迎！アニメ業界の経験不問♪",
+          "url": "https://mamaworks.jp/job/39162",
+          "budget": "時間単価 2,500円（税込）"
+        },
+        {
+          "id": "mamaworks-38939",
+          "title": "【完全在宅】AI動画制作＆投稿ワーク｜1投稿300円で慣れれば1時間で2000円も目指せる｜編集ソフト不要・未経験OK",
+          "url": "https://mamaworks.jp/job/38939",
+          "budget": "案件単価 1投稿300円（税込）（慣れれば時間単価換算2,000円（税込）以上も目指せます）"
+        },
+        {
+          "id": "mamaworks-38855",
+          "title": "【完全在宅】家事・育児のスキマ時間に◎ 1本2,000円のショート動画編集｜シフトなし・自分のペースで",
+          "url": "https://mamaworks.jp/job/38855",
+          "budget": "案件単価 ショート動画1本あたり2,000円（税込）"
+        },
+        {
+          "id": "mamaworks-38856",
+          "title": "平日夜・週末のスキマ時間で副収入！1本2,000円のショート動画編集｜完全在宅・出来高制で本業と両立",
+          "url": "https://mamaworks.jp/job/38856",
+          "budget": "案件単価 2,000円（税込）※ショート動画1本あたりの成果報酬 ショート動画1本あたり2,000円（税込）の成果報酬／動画採点システムで80点以上が納品完了基準。80点未満の場合は修正対応あり（修正箇所はシステム内で確認可）"
+        },
+        {
+          "id": "mamaworks-38857",
+          "title": "【完全在宅・時間自由】1本2,000円の成果報酬｜ショート動画を量産できる方歓迎★数をこなすほど報酬が伸びる",
+          "url": "https://mamaworks.jp/job/38857",
+          "budget": "案件単価 ショート動画1本あたり2,000円（税込）"
+        },
+        {
+          "id": "mamaworks-38858",
+          "title": "完全在宅・時間自由｜マーケ視点が身につくショート動画編集で企業の広告動画に携わる実績が作れる★",
+          "url": "https://mamaworks.jp/job/38858",
+          "budget": "案件単価 ショート動画1本あたり2,000円（税込）"
+        },
+        {
+          "id": "mamaworks-38859",
+          "title": "完全在宅・時間自由｜ショート動画1本2,000円！撮影〜編集まで対応できる方、活躍の場が広がります",
+          "url": "https://mamaworks.jp/job/38859",
+          "budget": "案件単価 ショート動画1本あたり2,000円（税込） 納品基準：弊社の動画採点システムにて80点以上で納品完了。80点未満の場合は80点以上になるよう修正対応をお願いします（修正箇所はシステム内に表示されます）"
+        },
+        {
+          "id": "mamaworks-38860",
+          "title": "【完全在宅/時間自由】CapCutメインでOK◎1本2,000円のショート動画編集｜スマホ・PCどちらでも量産しやすい★",
+          "url": "https://mamaworks.jp/job/38860",
+          "budget": "案件単価 ショート動画1本あたり2,000円（税込）"
+        },
+        {
+          "id": "mamaworks-38861",
+          "title": "完全在宅・時間自由！Premiere Proの編集スキルを活かしてショート動画1本2,000円の成果報酬",
+          "url": "https://mamaworks.jp/job/38861",
+          "budget": "案件単価 ショート動画1本あたり2,000円（税込）"
+        },
+        {
+          "id": "mamaworks-38862",
+          "title": "【完全在宅/時間自由】AI動画生成スキルを活かせる◎ 1本2,000円のショート動画編集｜生成×編集で効率よく量産★",
+          "url": "https://mamaworks.jp/job/38862",
+          "budget": "案件単価 2,000円（税込）※ショート動画1本あたり"
+        },
+        {
+          "id": "mamaworks-38871",
+          "title": "【未経験歓迎】ChatGPT×Premiere Proでショート動画を作成！在宅で始めるAI動画編集のお仕事",
+          "url": "https://mamaworks.jp/job/38871",
+          "budget": "案件単価 ショート動画1本1,100円〜（税込） 継続になった場合、単価は案件により様々となります。"
+        },
+        {
+          "id": "mamaworks-38706",
+          "title": "完全在宅・1本2,000円｜スキマ時間で積めるショート動画編集の成果報酬のお仕事",
+          "url": "https://mamaworks.jp/job/38706",
+          "budget": "ショート動画1本あたり2,000円（税込）の成果報酬／動画採点システムで80点以上が納品完了基準。80点未満の場合は修正対応あり（修正箇所はシステム内で確認可）"
+        },
+        {
+          "id": "mamaworks-38685",
+          "title": "360°動画の編集経験を活かす！観光地のYouTube動画編集｜Premiere Pro・PowerDirector対応",
+          "url": "https://mamaworks.jp/job/38685",
+          "budget": "案件単価 時間単価換算1,000円 (税込)になるよう設定します"
+        },
+        {
+          "id": "mamaworks-38586",
+          "title": "AI動画生成クリエイター｜ショート動画マーケティング！新規事業の立ち上げメンバーとして活躍できる",
+          "url": "https://mamaworks.jp/job/38586",
+          "budget": "月額112,000円 (税込)〜（経験・スキルに応じて決定） ※稼働80時間：112,000円 (税込)〜／100時間：140,000円 (税込)～ その他稼働時間に応じた調整可能 稼働時間・曜日は自由に調整可能です。 未経験者：時間単価1,400円〜 (税込)"
+        },
+        {
+          "id": "mamaworks-38499",
+          "title": "【完全在宅・動画編集高度な表現力を活かし、自分のアイディアをクリエイティブに表現できる編集者募集！",
+          "url": "https://mamaworks.jp/job/38499",
+          "budget": "時間単価1500円(税込)"
+        },
+        {
+          "id": "mamaworks-38299",
+          "title": "本業と両立しながら新しい事を身につけたい方、応援します！未経験歓迎の完全フルリモート動画編集スタッフ◎副業にも最適♪",
+          "url": "https://mamaworks.jp/job/38299",
+          "budget": "案件単価 1,500円 案件単価 ・ショート動画（1分未満）：1,500円～（税込） ・ロング動画（1分以上）：2,000円～（税込） ※月収目安5万円〜"
+        },
+        {
+          "id": "mamaworks-37466",
+          "title": "✦動画作成・編集クリエイター募集✦高単価！時間単価3000円☆SNS動画編集経験を活かせる在宅クリエイティブ案件◎",
+          "url": "https://mamaworks.jp/job/37466",
+          "budget": "時間単価3,000円（税込）"
+        },
+        {
+          "id": "mamaworks-37112",
+          "title": "SNS広告の勝ちパターンを一緒に仕掛けるショート制作の経験者募集！マーケティングの最前線での動画編集ポジション★",
+          "url": "https://mamaworks.jp/job/37112",
+          "budget": "月単価：128,000円〜200,000円（税込） ※スキル・経験に応じて決定します"
+        },
+        {
+          "id": "mamaworks-36972",
+          "title": "出社は撮影時のみ☆【YouTubeディレクター】企画から編集ディレクションまで携われる自由な働き方！",
+          "url": "https://mamaworks.jp/job/36972",
+          "budget": "時間単価1,870円（税込）"
+        },
+        {
+          "id": "mamaworks-34862",
+          "title": "【石川県内での撮影が可能な方必見】老舗木工所の「職人技」を映像に残す！撮影＆カンタン動画編集サポート",
+          "url": "https://mamaworks.jp/job/34862",
+          "budget": "■案件単価制 時間単価換算：1300円(税込)/１時間"
+        },
+        {
+          "id": "mamaworks-34355",
+          "title": "【縦型ショート動画の撮影スタッフ】SNS時代の“バズる映像”を撮る！企業イベント撮影から店舗・ブランド撮影！",
+          "url": "https://mamaworks.jp/job/34355",
+          "budget": "時間単価：1,300円〜（税込）"
+        },
+        {
+          "id": "mamaworks-33257",
+          "title": "【ショート動画×在宅×上場企業グループ】企業の魅力をSNSで発信！ショート動画制作・編集スキルを活かせるクリエイター募集",
+          "url": "https://mamaworks.jp/job/33257",
+          "budget": "時間単価：1,300円（税込）"
+        },
+        {
+          "id": "mamaworks-32763",
+          "title": "【広告動画×在宅×上場企業グループ】AI動画生成ツールでクライアントSNS・広告動画制作をリード！動画編集の実務経験歓迎",
+          "url": "https://mamaworks.jp/job/32763",
+          "budget": "時間単価：1,300円〜（税込） ※スキルに応じて"
+        },
+        {
+          "id": "mamaworks-32497",
+          "title": "《完全在宅×時間単価》YouTubeロング＆ショート動画編集スタッフ急募！誰かの心に届く魅力的な動画を発信しませんか？",
+          "url": "https://mamaworks.jp/job/32497",
+          "budget": "時間単価：1200円(税込)～ 業務実績やパフォーマンスにより報酬UPの可能性あり"
+        },
+        {
+          "id": "mamaworks-27326",
+          "title": "【完全在宅×切り抜き動画制作×フルコミ大歓迎】動画の一瞬を切り抜く！ショート編集スタッフ募集！実務経験者大歓迎◎",
+          "url": "https://mamaworks.jp/job/27326",
+          "budget": "時間単価：1,300円〜（税込）"
+        }
+      ],
+      "lastSuccess": "2026-10-14T14:10:21.551Z",
+      "lastAttempt": "2026-10-14T14:10:21.551Z",
+      "error": null,
+      "rawCount": 33
     },
     {
       "id": "crowdworks",
       "name": "クラウドワークス",
       "automatic": true,
       "url": "https://crowdworks.jp/public/jobs/group/video_contents?order=new",
-      "jobs": [
-        {
-          "id": "crowdworks-13534059",
-          "title": "【ショート動画編集】ひとりで楽しむ東京散歩・本屋・美術館・喫茶店紹介",
-          "url": "https://crowdworks.jp/public/jobs/13534059",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T19:53:08+09:00"
-        },
-        {
-          "id": "crowdworks-13534055",
-          "title": "動画編集、フルテロップ、ビジネス系動画",
-          "url": "https://crowdworks.jp/public/jobs/13534055",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T19:52:09+09:00"
-        },
-        {
-          "id": "crowdworks-13320879",
-          "title": "【1500円/件】リールやTIkTok用のショート動画を編集するお仕事",
-          "url": "https://crowdworks.jp/public/jobs/13320879",
-          "budget": "0円〜5,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T19:47:22+09:00"
-        },
-        {
-          "id": "crowdworks-13505219",
-          "title": "【長期継続可】エンタメ系YouTuberの対談動画・外ロケ動画を編集していただける方募集！",
-          "url": "https://crowdworks.jp/public/jobs/13505219",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T19:25:18+09:00"
-        },
-        {
-          "id": "crowdworks-13533948",
-          "title": "YouTube漫画動画（新チャンネル）の編集をしていただける方を募集しております！",
-          "url": "https://crowdworks.jp/public/jobs/13533948",
-          "budget": "0円〜5,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T18:58:43+09:00"
-        },
-        {
-          "id": "crowdworks-13533944",
-          "title": "【継続案件】令和の虎関連動画の編集者募集｜長尺・ショート動画",
-          "url": "https://crowdworks.jp/public/jobs/13533944",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T18:57:14+09:00"
-        },
-        {
-          "id": "crowdworks-13533934",
-          "title": "格安のため未経験者のみ希望 canvaで動画編集してくれる方募集",
-          "url": "https://crowdworks.jp/public/jobs/13533934",
-          "budget": "〜55円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T18:46:26+09:00"
-        },
-        {
-          "id": "crowdworks-13435612",
-          "title": "《新しいことを始めたい方へ⭐》美容の魅力をSNSで届ける｜リール動画制作のお仕事！",
-          "url": "https://crowdworks.jp/public/jobs/13435612",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T18:43:34+09:00"
-        },
-        {
-          "id": "crowdworks-13448680",
-          "title": "《今の働き方に新しい選択肢を✨》サウナの魅力をSNSで届ける｜ショート動画制作",
-          "url": "https://crowdworks.jp/public/jobs/13448680",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T18:42:30+09:00"
-        },
-        {
-          "id": "crowdworks-13522494",
-          "title": "【動画編集】旅行に関するショート動画作成をお願いいたします！",
-          "url": "https://crowdworks.jp/public/jobs/13522494",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-18",
-          "postedAt": "2026-10-14T18:31:59+09:00"
-        },
-        {
-          "id": "crowdworks-13465669",
-          "title": "「行ってみたい」をSNS発信✨｜魅力あふれる一人旅Vlogのショート動画編集！｜継続・副業◎",
-          "url": "https://crowdworks.jp/public/jobs/13465669",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T18:26:37+09:00"
-        },
-        {
-          "id": "crowdworks-13533888",
-          "title": "筋トレ・健康SNSの動画編集に興味がある方募集【20代・初心者歓迎✨完全在宅】",
-          "url": "https://crowdworks.jp/public/jobs/13533888",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T18:20:45+09:00"
-        },
-        {
-          "id": "crowdworks-13488890",
-          "title": "【長期継続可能！】YouTubeインバウンド向けの長尺旅行Vlog風ちゃんねるの動画の編集！！【1本5000円！！！】",
-          "url": "https://crowdworks.jp/public/jobs/13488890",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T18:19:07+09:00"
-        },
-        {
-          "id": "crowdworks-13533873",
-          "title": "🚀動画編集から企画へステップアップ🚀ショート動画でSNS運用パートナーになりませんか？",
-          "url": "https://crowdworks.jp/public/jobs/13533873",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T18:15:35+09:00"
-        },
-        {
-          "id": "crowdworks-13533853",
-          "title": "【看護師の経験を活かす】美容医療・クリニックのSNSショート動画制作スタッフ募集",
-          "url": "https://crowdworks.jp/public/jobs/13533853",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T18:10:09+09:00"
-        },
-        {
-          "id": "crowdworks-13533844",
-          "title": "ショート動画 実写/AI動画作成（経験者優遇） 単価数万~ 継続依頼あり",
-          "url": "https://crowdworks.jp/public/jobs/13533844",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T18:02:11+09:00"
-        },
-        {
-          "id": "crowdworks-13533839",
-          "title": "【20代女性が共感するトーク動画】切り抜きショート動画編集スタッフ募集【継続あり】",
-          "url": "https://crowdworks.jp/public/jobs/13533839",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T17:58:29+09:00"
-        },
-        {
-          "id": "crowdworks-13533831",
-          "title": "【休日Vlogや暮らしの動画が好きな方歓迎】SNSショート動画編集スタッフ募集【継続あり】",
-          "url": "https://crowdworks.jp/public/jobs/13533831",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T17:55:48+09:00"
-        },
-        {
-          "id": "crowdworks-13533824",
-          "title": "【SNSショート動画編集募集】ストリートスナップ動画｜継続あり",
-          "url": "https://crowdworks.jp/public/jobs/13533824",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T17:53:20+09:00"
-        },
-        {
-          "id": "crowdworks-13533822",
-          "title": "【1本2,700円・継続】歌で物語が進むリール制作｜台本・歌詞・歌唱音源・編集",
-          "url": "https://crowdworks.jp/public/jobs/13533822",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T17:52:29+09:00"
-        },
-        {
-          "id": "crowdworks-13533815",
-          "title": "【1本1,800円・継続】歌で物語が進むAIショート動画制作｜画像生成・歌唱音源・編集",
-          "url": "https://crowdworks.jp/public/jobs/13533815",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T17:50:38+09:00"
-        },
-        {
-          "id": "crowdworks-13533810",
-          "title": "【1本1,800円・継続】歌で物語が進むAIショート動画制作｜画像生成・歌唱音源・編集",
-          "url": "https://crowdworks.jp/public/jobs/13533810",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T17:47:17+09:00"
-        },
-        {
-          "id": "crowdworks-13533782",
-          "title": "教育系YouTubeの編集",
-          "url": "https://crowdworks.jp/public/jobs/13533782",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T17:33:32+09:00"
-        },
-        {
-          "id": "crowdworks-13472459",
-          "title": "🍠【1本3,000円】「こんな秋の芋スイーツあったんだ！」を届けるショート動画編集！「初めての方でもOK◎」",
-          "url": "https://crowdworks.jp/public/jobs/13472459",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T17:09:00+09:00"
-        },
-        {
-          "id": "crowdworks-13533659",
-          "title": "【ショート動画編集】セルフフォトスタジオの魅力を伝えるお仕事",
-          "url": "https://crowdworks.jp/public/jobs/13533659",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-20",
-          "postedAt": "2026-10-14T16:37:47+09:00"
-        },
-        {
-          "id": "crowdworks-13533635",
-          "title": "医療系の長尺素材（対談・密着など）からの要約・構成作成、テロップ、Bロール・図解挿入などの編集作業一式",
-          "url": "https://crowdworks.jp/public/jobs/13533635",
-          "budget": "〜33,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T16:30:41+09:00"
-        },
-        {
-          "id": "crowdworks-13533531",
-          "title": "【継続依頼あり】英語版動画の編集スタッフ募集！1本2,000円〜3,000円／動画編集経験者歓迎",
-          "url": "https://crowdworks.jp/public/jobs/13533531",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T16:09:27+09:00"
-        },
-        {
-          "id": "crowdworks-13533503",
-          "title": "【大量依頼可能/月50,000可】YouTube雑学ショート動画の編集をしてくれる方募集！",
-          "url": "https://crowdworks.jp/public/jobs/13533503",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T16:02:51+09:00"
-        },
-        {
-          "id": "crowdworks-13533472",
-          "title": "ショート動画編集スタッフ募集！",
-          "url": "https://crowdworks.jp/public/jobs/13533472",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-14T16:02:49+09:00"
-        },
-        {
-          "id": "crowdworks-13533511",
-          "title": "☕【20代～30代前半・未経験OK！】「知る人ぞ知る穴場カフェ」をテーマにしたショート動画の編集者さんを募集します✨",
-          "url": "https://crowdworks.jp/public/jobs/13533511",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T16:02:49+09:00"
-        },
-        {
-          "id": "crowdworks-13533460",
-          "title": "【難易度★☆☆ SNS編集】未経験OK｜継続案件あり！",
-          "url": "https://crowdworks.jp/public/jobs/13533460",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:41:11+09:00"
-        },
-        {
-          "id": "crowdworks-13533247",
-          "title": "【YouTube動画編集】チャンネルの成長を共に楽しむパートナー募集！丁寧なフィードバックでスキルアップ◎",
-          "url": "https://crowdworks.jp/public/jobs/13533247",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:35:31+09:00"
-        },
-        {
-          "id": "crowdworks-13457845",
-          "title": "「1本3,000円」素材・流れに沿って作る、暮らし系ショート動画編集！【動画編集を始めたい方へ】",
-          "url": "https://crowdworks.jp/public/jobs/13457845",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T15:22:51+09:00"
-        },
-        {
-          "id": "crowdworks-13533318",
-          "title": "【属人コント】YouTubeショートの動画編集【1本3000円～】",
-          "url": "https://crowdworks.jp/public/jobs/13533318",
-          "budget": "50,000円〜100,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:19:31+09:00"
-        },
-        {
-          "id": "crowdworks-13533315",
-          "title": "【ショート動画編集・ディレクター】心霊・スピリチュアル系YouTubeのショート動画",
-          "url": "https://crowdworks.jp/public/jobs/13533315",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T15:18:53+09:00"
-        },
-        {
-          "id": "crowdworks-13533264",
-          "title": "【継続案件】和訳ができる動画編集者様を探しています",
-          "url": "https://crowdworks.jp/public/jobs/13533264",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T14:54:54+09:00"
-        },
-        {
-          "id": "crowdworks-13533262",
-          "title": "【1案件3万〜10万】テレビ局等の編集経験者歓迎！映像クリエイター募集🎬【座談会・密着／平日日中稼働】",
-          "url": "https://crowdworks.jp/public/jobs/13533262",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:54:25+09:00"
-        },
-        {
-          "id": "crowdworks-13533259",
-          "title": "【経験者限定】教育系YouTube編集者募集｜継続1本10,000円",
-          "url": "https://crowdworks.jp/public/jobs/13533259",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T14:53:28+09:00"
-        },
-        {
-          "id": "crowdworks-13533258",
-          "title": "【副業歓迎】1案件3万～◆業界No.1YouTubeの映像クリエイター募集！【座談会・密着ドキュメンタリー】",
-          "url": "https://crowdworks.jp/public/jobs/13533258",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:53:26+09:00"
-        },
-        {
-          "id": "crowdworks-13533249",
-          "title": "【1案件3万～】心を動かすキャリアストーリーを紡ぐ！ 業界No.1YouTubeチャンネルの映像クリエイター募集【密着･座談会】",
-          "url": "https://crowdworks.jp/public/jobs/13533249",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:52:31+09:00"
-        },
-        {
-          "id": "crowdworks-13533210",
-          "title": "【継続依頼】広告用ショート動画（1〜2分）の動画編集者募集｜将来的にディレクター登用あり",
-          "url": "https://crowdworks.jp/public/jobs/13533210",
-          "budget": "〜5,500円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:47:43+09:00"
-        },
-        {
-          "id": "crowdworks-13533214",
-          "title": "【コントアニメ】YouTubeショート動画の編集業務【1本5000円〜】",
-          "url": "https://crowdworks.jp/public/jobs/13533214",
-          "budget": "50,000円〜100,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:40:32+09:00"
-        },
-        {
-          "id": "crowdworks-13533207",
-          "title": "ショート動画の編集お願いしたいです",
-          "url": "https://crowdworks.jp/public/jobs/13533207",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:37:53+09:00"
-        },
-        {
-          "id": "crowdworks-13532895",
-          "title": "【AI画像生成必須／継続依頼】いらすとやを使ったホラーショート動画の編集者募集",
-          "url": "https://crowdworks.jp/public/jobs/13532895",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T14:34:18+09:00"
-        },
-        {
-          "id": "crowdworks-13533194",
-          "title": "【初めてでもOk！】旅の魅力を動画で伝えるショート動画編集！「1本3000円」",
-          "url": "https://crowdworks.jp/public/jobs/13533194",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T14:34:03+09:00"
-        },
-        {
-          "id": "crowdworks-13533182",
-          "title": "【20代の夜勤経験者向け🌃】夜勤明けのリアルを届けるショート動画編集｜継続依頼あり◎",
-          "url": "https://crowdworks.jp/public/jobs/13533182",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T14:30:19+09:00"
-        },
-        {
-          "id": "crowdworks-13533160",
-          "title": "【1本400円〜】海外切り抜き経験者歓迎！西洋ドレス・歴史雑学ショート動画の台本作成＆編集★長期継続・昇給あり ！",
-          "url": "https://crowdworks.jp/public/jobs/13533160",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:29:32+09:00"
-        },
-        {
-          "id": "crowdworks-13533141",
-          "title": "【継続あり】ショート動画の編集をお手伝いいただける方募集【Premiere Pro必須】",
-          "url": "https://crowdworks.jp/public/jobs/13533141",
-          "budget": "0円〜5,000円",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-14T14:29:31+09:00"
-        },
-        {
-          "id": "crowdworks-13533152",
-          "title": "動画編集やSNSマーケティングに挑戦したい方募集",
-          "url": "https://crowdworks.jp/public/jobs/13533152",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:20:50+09:00"
-        },
-        {
-          "id": "crowdworks-13533104",
-          "title": "【ショート】動画編集者募集",
-          "url": "https://crowdworks.jp/public/jobs/13533104",
-          "budget": "0円〜5,000円",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T14:18:11+09:00"
-        },
-        {
-          "id": "crowdworks-13532972",
-          "title": "【高単価案件！長期継続！】スポーツ解説系YouTube動画の編集者募集",
-          "url": "https://crowdworks.jp/public/jobs/13532972",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:18:08+09:00"
-        },
-        {
-          "id": "crowdworks-13532965",
-          "title": "【月10本以上の定期発注】TikTokに投稿するショート動画の編集担当募集（継続案件）",
-          "url": "https://crowdworks.jp/public/jobs/13532965",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:18:07+09:00"
-        },
-        {
-          "id": "crowdworks-13533139",
-          "title": "✨動画編集スキルを活かしてキャリアアップ✨SNSコンテンツ企画・運用アシスタント募集",
-          "url": "https://crowdworks.jp/public/jobs/13533139",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T14:15:33+09:00"
-        },
-        {
-          "id": "crowdworks-13533092",
-          "title": "【顔出しあり！男性モデルさん募集】化粧品系モデル",
-          "url": "https://crowdworks.jp/public/jobs/13533092",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T13:59:02+09:00"
-        },
-        {
-          "id": "crowdworks-13533065",
-          "title": "【初心者歓迎】YouTube動画編集 （ポートフォリオ使用OK）",
-          "url": "https://crowdworks.jp/public/jobs/13533065",
-          "budget": "〜330円",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T13:49:06+09:00"
-        },
-        {
-          "id": "crowdworks-13533060",
-          "title": "【20代・未経験OK】好きなファッションを仕事に👗おしゃれ系ショート動画の編集メンバー募集【継続あり】",
-          "url": "https://crowdworks.jp/public/jobs/13533060",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-14T13:46:46+09:00"
-        },
-        {
-          "id": "crowdworks-13533031",
-          "title": "ビジネス系YouTube動画編集 継続希望",
-          "url": "https://crowdworks.jp/public/jobs/13533031",
-          "budget": "〜9,900円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T13:34:11+09:00"
-        },
-        {
-          "id": "crowdworks-13533021",
-          "title": "【ショート動画編集】夜勤・立ち仕事の疲労回復＆セルフケア🌿｜Instagramリール作成（15〜30秒・テロップ入れ中心）",
-          "url": "https://crowdworks.jp/public/jobs/13533021",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T13:30:25+09:00"
-        },
-        {
-          "id": "crowdworks-13533017",
-          "title": "YouTube用のAI動画の作成、編集ができる方を募集します",
-          "url": "https://crowdworks.jp/public/jobs/13533017",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-14T13:28:42+09:00"
-        },
-        {
-          "id": "crowdworks-13533014",
-          "title": "【1本5000円】健康に関する動画編集者様を大募集！【主婦の方歓迎・長期案件】※最初はテスト採用",
-          "url": "https://crowdworks.jp/public/jobs/13533014",
-          "budget": "〜500円",
-          "deadline": "2026-10-28",
-          "postedAt": "2026-10-14T13:27:46+09:00"
-        }
-      ],
-      "lastSuccess": "2026-10-14T11:20:28.836Z",
-      "lastAttempt": "2026-10-14T11:20:28.836Z",
-      "error": null,
-      "rawCount": 150
+      "jobs": [],
+      "lastSuccess": null,
+      "lastAttempt": "2026-10-14T14:10:21.551Z",
+      "error": "取得元の応答: HTTP 403",
+      "screeningPolicy": "cw-student-exclusions-20261014-v1"
     }
   ]
 }
