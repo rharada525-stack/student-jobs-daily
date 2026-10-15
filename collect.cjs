@@ -25,6 +25,12 @@ const JOB_SETTINGS={
       "url": "https://mamaworks.jp/jobs?lrj%5Brecruitmentjob_id%5D%5B0%5D=400"
     },
     {
+      "id": "wantedly",
+      "name": "Wantedly",
+      "automatic": true,
+      "url": "https://www.wantedly.com/projects?hiringTypes=side_job&jp__design_and_art=jp__video_creator&new=true&occupationTypes=jp__design_and_art&order=recent"
+    },
+    {
       "id": "lancers",
       "name": "ランサーズ",
       "automatic": false,
@@ -37,13 +43,6 @@ const JOB_SETTINGS={
       "automatic": false,
       "url": "https://talent.aw-anotherworks.com/",
       "description": "複業・業務委託のマッチングサービスです。案件探しは公式サイトからログインして進めてください。"
-    },
-    {
-      "id": "wantedly",
-      "name": "Wantedly",
-      "automatic": false,
-      "url": "https://www.wantedly.com/projects?hiringTypes=side_job&jp__design_and_art=jp__video_creator&new=true&occupationTypes=jp__design_and_art&order=mixed",
-      "description": "動画クリエイター・副業の募集を探せます。報酬や稼働条件は募集先に確認してください。"
     },
     {
       "id": "indeed",
@@ -115,6 +114,57 @@ function parseCoconalaLong_(html) {
     return {id:'coconala-long-'+id[1],title:cleanText_(title[1]),url:'https://coconala.com/job_matching/outsources/'+id[1],budget:budget?budget[1].replace(/\s*\/\s*/g,'／').slice(0,100):'報酬は募集ページで確認',deadline:'',postedAt:'',status:/募集終了|受付終了/.test(plain)?'closed':'released',private:false,filterText:category};
   }).filter(Boolean);
 }
+function parseWantedly_(html) {
+  const script=html.match(/<script\b[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/);
+  if(!script)throw new Error('Wantedlyの公開一覧形式が変わりました');
+  const data=JSON.parse(script[1]);
+  // Read only the public search results embedded in this HTML. Featured cards and APIs are not used.
+  const state=data.props?.pageProps?.__apollo?.graphqlGatewayInitialState;
+  const index=state?.ROOT_QUERY?.projectIndexPageJobPostIndex;
+  const key=Object.keys(index||{}).find(k=>k.startsWith('searchedJobPostsUsingOffset('));
+  const listing=index?.[key],params=listing?.executedSearchParameters;
+  if(!listing||!Array.isArray(listing.jobPosts)||!Number.isSafeInteger(listing.totalCount)||
+    !params?.hiringTypes?.some(v=>v.key==='side_job')||
+    !params?.occupationTypeTrees?.some(v=>v.subtypes?.some(s=>s.key==='jp__video_creator'))||params.order?.key!=='recent')
+    throw new Error('Wantedlyの副業・動画クリエイター・新着順の条件を確認できません');
+  if(listing.totalCount>0&&!listing.jobPosts.length)throw new Error('Wantedlyの公開案件を確認できません');
+  const jobs=listing.jobPosts.map(row=>{
+    const job=state[row.jobPost?.__ref]||row.jobPost;
+    if(!job||!/^\d+$/.test(String(job.id))||typeof job.title!=='string')throw new Error('Wantedlyの募集項目を確認できません');
+    if(!job.hiringTypes?.some(v=>v.type==='SIDE_JOB'))return null;
+    const title=cleanText_(job.title),role=cleanText_(job.occupationName),body=cleanText_(job.detailDescription);
+    if(/営業|採用|RPO|講師|チャットサポート|カスタマー/.test(title)&&!/動画編集|映像編集|動画制作|動画の制作|動画クリエイター/.test(title))return null;
+    if(!/動画|映像|YouTube|エディター|Premiere/i.test(title+' '+role))return null;
+    return {id:'wantedly-'+job.id,title,url:'https://www.wantedly.com/projects/'+job.id,budget:'報酬・稼働条件は募集先に確認',postedAt:job.publishedAt||'',deadline:'',status:'released',private:false,filterText:role+' '+body};
+  }).filter(Boolean);
+  return {jobs,rawCount:listing.jobPosts.length};
+}
+function robotsAllows_(text,url,agent='StudentJobLinkCollector') {
+  // Apply the most specific matching user-agent group, then the longest path rule (Allow wins ties).
+  const groups=[];let group={agents:[],rules:[]},hasRules=false;
+  for(const raw of String(text).split(/\r?\n/)){
+    const line=raw.split('#')[0].trim(),match=line.match(/^([^:]+):\s*(.*)$/);if(!match)continue;
+    const field=match[1].trim().toLowerCase(),value=match[2].trim();
+    if(field==='user-agent'){if(hasRules){groups.push(group);group={agents:[],rules:[]};hasRules=false;}group.agents.push(value.toLowerCase());}
+    else if((field==='allow'||field==='disallow')&&group.agents.length){hasRules=true;if(value)group.rules.push({allow:field==='allow',path:value});}
+  }
+  if(group.agents.length)groups.push(group);
+  if(!groups.length)throw new Error('Wantedlyのrobots.txtの形式を確認できません');
+  const ranked=groups.map(g=>({...g,score:Math.max(-1,...g.agents.map(a=>a==='*'?0:agent.toLowerCase().includes(a)?a.length:-1))}));
+  const best=Math.max(...ranked.map(g=>g.score));if(best<0)return true;
+  const target=new URL(url).pathname+new URL(url).search;
+  const matches=ranked.filter(g=>g.score===best).flatMap(g=>g.rules).filter(rule=>{
+    const end=rule.path.endsWith('$'),pattern=rule.path.replace(/\$$/,'').split('*').map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('.*');
+    return new RegExp('^'+pattern+(end?'$':'')).test(target);
+  }).sort((a,b)=>b.path.replace(/\*/g,'').length-a.path.replace(/\*/g,'').length||Number(b.allow)-Number(a.allow));
+  return !matches.length||matches[0].allow;
+}
+async function checkWantedlyRobots_(url,fetcher) {
+  const response=await fetcher('https://www.wantedly.com/robots.txt',{signal:AbortSignal.timeout(25000),redirect:'error',headers:{'User-Agent':'StudentJobLinkCollector/1.0 (+https://github.com/rharada525-stack/student-jobs-daily)'}});
+  if(response.status!==200)throw new Error('Wantedlyのrobots.txtを確認できません: HTTP '+response.status);
+  const robots=await response.text();if(robots.length>100000)throw new Error('Wantedlyのrobots.txtの形式を確認できません');
+  return function assertAllowed(target){if(!robotsAllows_(robots,target)){const error=new Error('Wantedlyのrobots.txtにより取得を停止しました。公式サイトでご確認ください');error.code='WANTEDLY_ROBOTS_DENIED';throw error;}};
+}
 function hasEmptyResults_(html) { return /(?:該当する(?:仕事|案件|募集).{0,15}(?:ありません|見つかりません)|0\s*件中|該当件数.{0,10}0\s*件)/.test(cleanText_(html)); }
 function eligibleJob_(job, now) {
   if (/(?:演者募集|出演者|出演モデル|撮影者募集|撮影のみ)/.test(job.title)) return false;
@@ -127,7 +177,7 @@ function eligibleJob_(job, now) {
 }
 function publicJob_(job) {
   const basic={id:job.id,title:job.title,url:job.url,budget:job.budget};
-  return /^(?:lancers|mamaworks|coconala-long)-/.test(job.id)?basic:{...basic,deadline:job.deadline,postedAt:job.postedAt};
+  return /^(?:lancers|mamaworks|coconala-long|wantedly)-/.test(job.id)?basic:{...basic,deadline:job.deadline,postedAt:job.postedAt};
 }
 function decodeHtml_(value) { return String(value || '').replace(/&(?:quot|apos|amp|lt|gt|nbsp);|&#(?:x[\da-f]+|\d+);/gi, token => { const map={'&quot;':'"','&apos;':"'",'&amp;':'&','&lt;':'<','&gt;':'>','&nbsp;':' '}; if(map[token.toLowerCase()]!=null) return map[token.toLowerCase()]; return String.fromCodePoint(token[2].toLowerCase()==='x'?parseInt(token.slice(3,-1),16):parseInt(token.slice(2,-1),10)); }); }
 function cleanText_(value) { return decodeHtml_(String(value || '').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim(); }
@@ -137,7 +187,7 @@ function jstDay_(date) { return new Date(date.getTime()+9*60*60*1000).toISOStrin
 // Only card metadata is published. Descriptions and employer statistics remain in memory.
 const CW_POLICY='cw-student-exclusions-20261014-v2-video-reference';
 const CW_EXCLUDED_WORDS=['既婚','未婚','結婚','独立','20代','学生','実家','子供','一人暮らし','雇用形態','スクール','精神疾患','未経験','初心者'];
-const JOB_URLS={coconala_long:/^https:\/\/coconala\.com\/job_matching\/outsources\/[0-9A-HJKMNP-TV-Z]{26}$/,coconala:/^https:\/\/coconala\.com\/requests\/\d+$/,crowdworks:/^https:\/\/crowdworks\.jp\/public\/jobs\/\d+$/,lancers:/^https:\/\/www\.lancers\.jp\/work\/detail\/\d+$/,mamaworks:/^https:\/\/mamaworks\.jp\/job\/\d+$/};
+const JOB_URLS={wantedly:/^https:\/\/www\.wantedly\.com\/projects\/\d+$/,coconala_long:/^https:\/\/coconala\.com\/job_matching\/outsources\/[0-9A-HJKMNP-TV-Z]{26}$/,coconala:/^https:\/\/coconala\.com\/requests\/\d+$/,crowdworks:/^https:\/\/crowdworks\.jp\/public\/jobs\/\d+$/,lancers:/^https:\/\/www\.lancers\.jp\/work\/detail\/\d+$/,mamaworks:/^https:\/\/mamaworks\.jp\/job\/\d+$/};
 function compactText(value){return cleanText_(decodeHtml_(value)).normalize('NFKC').replace(/[\s\u200b-\u200d\ufeff]/g,'');}
 function crowdworksExclusion(title,body){
   const text=compactText(title+' '+body);
@@ -239,12 +289,17 @@ async function update(previous,now=new Date(),fetcher=fetch,pause=ms=>new Promis
     try{
       const seen=new Set(),jobs=[],candidates=[];let rawCount=0;
       const excluded={};const countExcluded=reason=>{excluded[reason]=(excluded[reason]||0)+1;};
-      const pages=source.id==='mamaworks'?1:JOB_SETTINGS.pages;
+      const wantedlyAllowed=source.id==='wantedly'?await checkWantedlyRobots_(source.url,fetcher):null;
+      const pages=['mamaworks','wantedly'].includes(source.id)?1:JOB_SETTINGS.pages;
       for(let page=1;page<=pages;page++){
-        const html=await fetchPage(source.url+(source.id==='mamaworks'?'':'&page='+page),fetcher);
-        const parsed=source.id==='crowdworks'?parseCrowdworks_(html):source.id==='coconala_long'?parseCoconalaLong_(html):source.id==='coconala'?parseCoconala_(html,now):parseMamaworks_(html);
-        if(!parsed.length&&page===1&&!hasEmptyResults_(html))throw new Error('案件一覧の形式を確認できませんでした');
-        rawCount+=parsed.length;
+        const pageUrl=source.url+(['mamaworks','wantedly'].includes(source.id)?'':'&page='+page);
+        if(wantedlyAllowed)wantedlyAllowed(pageUrl);
+        const html=await fetchPage(pageUrl,fetcher);
+        const wantedly=source.id==='wantedly'?parseWantedly_(html):null;
+        const parsed=wantedly?wantedly.jobs:source.id==='crowdworks'?parseCrowdworks_(html):source.id==='coconala_long'?parseCoconalaLong_(html):source.id==='coconala'?parseCoconala_(html,now):parseMamaworks_(html);
+        if(!wantedly&&!parsed.length&&page===1&&!hasEmptyResults_(html))throw new Error('案件一覧の形式を確認できませんでした');
+        rawCount+=wantedly?wantedly.rawCount:parsed.length;
+        if(wantedlyAllowed)for(const job of parsed)wantedlyAllowed(job.url);
         for(const job of parsed){if(seen.has(job.id))continue;seen.add(job.id);if(!eligibleJob_(job,now)||!JOB_URLS[source.id].test(job.url))continue;if(source.id==='crowdworks'){const reason=crowdworksExclusion(job.title,job.filterText);if(reason)countExcluded(reason);else candidates.push(job);}else jobs.push(job);}
         if(!parsed.length||parsed.length<(['coconala','coconala_long'].includes(source.id)?40:50))break;
         if(page<JOB_SETTINGS.pages)await pause(1500);
@@ -272,7 +327,7 @@ async function update(previous,now=new Date(),fetcher=fetch,pause=ms=>new Promis
       jobs.sort((a,b)=>String(b.postedAt||'').localeCompare(String(a.postedAt||'')));
       sources.push({...source,jobs:jobs.slice(0,JOB_SETTINGS.maxJobsPerSource).map(publicJob_),lastSuccess:now.toISOString(),lastAttempt:now.toISOString(),error:null,rawCount,...(source.id==='crowdworks'?{screeningPolicy:CW_POLICY,detailChecked,excluded}:{} )});
     }catch(error){
-      const reusable=source.id!=='crowdworks'||prior.screeningPolicy===CW_POLICY;
+      const reusable=(source.id!=='crowdworks'||prior.screeningPolicy===CW_POLICY)&&error.code!=='WANTEDLY_ROBOTS_DENIED';
       sources.push({...source,jobs:reusable?(prior.jobs||[]).map(publicJob_):[],lastSuccess:reusable?prior.lastSuccess||null:null,lastAttempt:now.toISOString(),error:String(error.message||error).slice(0,180),...(source.id==='crowdworks'?{screeningPolicy:CW_POLICY}:{})});
     }
   }
@@ -286,6 +341,6 @@ async function main(){
   console.log(JSON.stringify(state.sources.map(s=>({source:s.id,count:s.jobs.length,lastSuccess:s.lastSuccess,error:s.error||null})),null,2));
   if(state.sources.some(s=>s.automatic&&s.error))process.exitCode=1;
 }
-module.exports={update,JOB_SETTINGS,parseCrowdworks_,parseCoconala_,parseCoconalaLong_,parseLancers_,parseMamaworks_,parseCrowdworksDetail_,parseCrowdworksEmployer_,hasReferenceVideo_,crowdworksExclusion,CW_EXCLUDED_WORDS,CW_POLICY,eligibleJob_,publicJob_,fetchPage};
+module.exports={update,JOB_SETTINGS,parseCrowdworks_,parseCoconala_,parseCoconalaLong_,parseWantedly_,robotsAllows_,parseLancers_,parseMamaworks_,parseCrowdworksDetail_,parseCrowdworksEmployer_,hasReferenceVideo_,crowdworksExclusion,CW_EXCLUDED_WORDS,CW_POLICY,eligibleJob_,publicJob_,fetchPage};
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
 
