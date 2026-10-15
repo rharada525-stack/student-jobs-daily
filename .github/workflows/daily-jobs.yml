@@ -1,7 +1,7 @@
 name: Daily public job links
 on:
   schedule:
-    - cron: '23 22 * * *'
+    - cron: '0 3 * * *' # 12:00 Asia/Tokyo
   workflow_dispatch:
   push:
     branches: [main]

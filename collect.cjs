@@ -2,7 +2,7 @@
 const fs=require('node:fs/promises'),path=require('node:path');
 const JOB_SETTINGS={
   "timezone": "Asia/Tokyo",
-  "hour": 7,
+  "hour": 12,
   "pages": 3,
   "maxJobsPerSource": 60,
   "sources": [
