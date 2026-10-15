@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-15T07:35:03.621Z",
+  "lastAttempt": "2026-10-15T07:48:55.572Z",
   "sources": [
     {
       "id": "coconala_long",
@@ -339,8 +339,8 @@
           "budget": "50 ~ 50 万円／月"
         }
       ],
-      "lastSuccess": "2026-10-15T07:35:03.621Z",
-      "lastAttempt": "2026-10-15T07:35:03.621Z",
+      "lastSuccess": "2026-10-15T07:48:55.572Z",
+      "lastAttempt": "2026-10-15T07:48:55.572Z",
       "error": null,
       "rawCount": 66
     },
@@ -647,8 +647,8 @@
           "postedAt": "2026-10-04T00:59:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-15T07:35:03.621Z",
-      "lastAttempt": "2026-10-15T07:35:03.621Z",
+      "lastSuccess": "2026-10-15T07:48:55.572Z",
+      "lastAttempt": "2026-10-15T07:48:55.572Z",
       "error": null,
       "rawCount": 42
     },
@@ -821,8 +821,8 @@
           "budget": "時間単価：1,300円〜（税込）"
         }
       ],
-      "lastSuccess": "2026-10-15T07:35:03.621Z",
-      "lastAttempt": "2026-10-15T07:35:03.621Z",
+      "lastSuccess": "2026-10-15T07:48:55.572Z",
+      "lastAttempt": "2026-10-15T07:48:55.572Z",
       "error": null,
       "rawCount": 33
     },
@@ -863,8 +863,8 @@
           "budget": "報酬・稼働条件は募集先に確認"
         }
       ],
-      "lastSuccess": "2026-10-15T07:35:03.621Z",
-      "lastAttempt": "2026-10-15T07:35:03.621Z",
+      "lastSuccess": "2026-10-15T07:48:55.572Z",
+      "lastAttempt": "2026-10-15T07:48:55.572Z",
       "error": null,
       "rawCount": 10
     },
@@ -913,25 +913,17 @@
           "budget": "5,000円〜10,000円",
           "deadline": "2026-10-29",
           "postedAt": "2026-10-15T14:17:06+09:00"
-        },
-        {
-          "id": "crowdworks-13535585",
-          "title": "【継続案件】YouTube漫画の動画編集者の募集",
-          "url": "https://crowdworks.jp/public/jobs/13535585",
-          "budget": "5,000円〜10,000円",
-          "deadline": "2026-10-29",
-          "postedAt": "2026-10-15T11:51:49+09:00"
         }
       ],
-      "lastSuccess": "2026-10-15T07:35:03.621Z",
-      "lastAttempt": "2026-10-15T07:35:03.621Z",
+      "lastSuccess": "2026-10-15T07:48:55.572Z",
+      "lastAttempt": "2026-10-15T07:48:55.572Z",
       "error": null,
       "rawCount": 49,
       "screeningPolicy": "cw-student-exclusions-20261014-v2-video-reference",
-      "detailChecked": 31,
+      "detailChecked": 28,
       "excluded": {
-        "excluded_keyword": 16,
-        "no_reference_video": 18,
+        "excluded_keyword": 18,
+        "no_reference_video": 16,
         "no_rating_or_contracts": 2
       }
     }
