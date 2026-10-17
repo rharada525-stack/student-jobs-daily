@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-16T03:27:20.522Z",
+  "lastAttempt": "2026-10-17T03:24:47.929Z",
   "sources": [
     {
       "id": "coconala_long",
@@ -13,6 +13,12 @@
           "title": "【東京・対面】ショート動画の撮影＋編集パートナー募集",
           "url": "https://coconala.com/job_matching/outsources/01M3M4V401R9PGHYWQD16339VP",
           "budget": "3,000 ~ 4,000 円／時間"
+        },
+        {
+          "id": "coconala-long-01M51Y24NWYMVMFZRES4EJY0NV",
+          "title": "急募！【完全在宅】SNSアカウントの運用支援・動画制作事業を展開する企業にて、ショート動画編集の業務をお任せします！",
+          "url": "https://coconala.com/job_matching/outsources/01M51Y24NWYMVMFZRES4EJY0NV",
+          "budget": "1,500 ~ 1,500 円／時間"
         },
         {
           "id": "coconala-long-01M3QWDE1NDWEJC64JK2E7SMQA",
@@ -339,10 +345,10 @@
           "budget": "50 ~ 50 万円／月"
         }
       ],
-      "lastSuccess": "2026-10-16T03:27:20.522Z",
-      "lastAttempt": "2026-10-16T03:27:20.522Z",
+      "lastSuccess": "2026-10-17T03:24:47.929Z",
+      "lastAttempt": "2026-10-17T03:24:47.929Z",
       "error": null,
-      "rawCount": 65
+      "rawCount": 66
     },
     {
       "id": "coconala",
@@ -350,6 +356,78 @@
       "automatic": true,
       "url": "https://coconala.com/requests/categories/10?recruiting=true",
       "jobs": [
+        {
+          "id": "coconala-5330103",
+          "title": "美容整体ビフォーアフター",
+          "url": "https://coconala.com/requests/5330103",
+          "budget": "見積り希望",
+          "deadline": "2026-10-20",
+          "postedAt": "2026-10-17T10:13:00+09:00"
+        },
+        {
+          "id": "coconala-5329914",
+          "title": "【PowerDirector買い切り版】簡易動画編集10本！書出不要・リテイクなし・初心者応援します",
+          "url": "https://coconala.com/requests/5329914",
+          "budget": "5千円未満",
+          "deadline": "2026-10-31",
+          "postedAt": "2026-10-17T02:17:00+09:00"
+        },
+        {
+          "id": "coconala-5329911",
+          "title": "カップル記念動画の編集と構成が得意な方を募集します",
+          "url": "https://coconala.com/requests/5329911",
+          "budget": "5千円〜1万円",
+          "deadline": "2026-10-31",
+          "postedAt": "2026-10-17T02:10:00+09:00"
+        },
+        {
+          "id": "coconala-5329822",
+          "title": "【継続案件/経験者優遇】YouTubeロング対談動画＋縦型切り抜きの編集パートナー募集",
+          "url": "https://coconala.com/requests/5329822",
+          "budget": "見積り希望",
+          "deadline": "2026-10-22",
+          "postedAt": "2026-10-17T00:09:00+09:00"
+        },
+        {
+          "id": "coconala-5329349",
+          "title": "縦撮影した動画の編集をお願いいたします",
+          "url": "https://coconala.com/requests/5329349",
+          "budget": "見積り希望",
+          "deadline": "2026-10-21",
+          "postedAt": "2026-10-16T18:34:00+09:00"
+        },
+        {
+          "id": "coconala-5329241",
+          "title": "YouTube用の約3分動画の編集者様を募集しています。",
+          "url": "https://coconala.com/requests/5329241",
+          "budget": "1万円〜3万円",
+          "deadline": "2026-10-23",
+          "postedAt": "2026-10-16T17:30:00+09:00"
+        },
+        {
+          "id": "coconala-5328714",
+          "title": "令和の虎YouTube動画編集を担当する方を募集します",
+          "url": "https://coconala.com/requests/5328714",
+          "budget": "5千円〜1万円",
+          "deadline": "2026-10-21",
+          "postedAt": "2026-10-16T12:31:00+09:00"
+        },
+        {
+          "id": "coconala-5327324",
+          "title": "Instagramリール動画の企画・編集ができる方を募集します",
+          "url": "https://coconala.com/requests/5327324",
+          "budget": "5千円〜1万円",
+          "deadline": "2026-10-22",
+          "postedAt": "2026-10-15T23:34:00+09:00"
+        },
+        {
+          "id": "coconala-5327444",
+          "title": "【長期継続あり】エンタメYouTube動画編集！参考動画のテイストを再現できる方募集！",
+          "url": "https://coconala.com/requests/5327444",
+          "budget": "5千円〜1万円",
+          "deadline": "2026-10-29",
+          "postedAt": "2026-10-15T18:09:00+09:00"
+        },
         {
           "id": "coconala-5326760",
           "title": "【Canva納品・二次利用可】住宅会社のInstagramリール動画編集（継続あり）",
@@ -383,44 +461,12 @@
           "postedAt": "2026-10-15T00:11:00+09:00"
         },
         {
-          "id": "coconala-5325985",
-          "title": "ミュージックビデオの映像編集ができる方を募集します",
-          "url": "https://coconala.com/requests/5325985",
-          "budget": "7,500円",
-          "deadline": "2026-10-15",
-          "postedAt": "2026-10-14T23:17:00+09:00"
-        },
-        {
-          "id": "coconala-5325951",
-          "title": "講演会動画のダイジェスト編集とテロップ制作ができる方を募集します",
-          "url": "https://coconala.com/requests/5325951",
-          "budget": "3万円〜5万円",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-14T23:05:00+09:00"
-        },
-        {
-          "id": "coconala-5325399",
-          "title": "グローバル向け動画編集と英語字幕作成ができる方を募集します",
-          "url": "https://coconala.com/requests/5325399",
-          "budget": "5千円〜1万円",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-14T18:21:00+09:00"
-        },
-        {
           "id": "coconala-5324655",
           "title": "【継続依頼あり】家族YouTubeの動画編集者募集",
           "url": "https://coconala.com/requests/5324655",
           "budget": "1万円〜3万円",
           "deadline": "2026-10-20",
           "postedAt": "2026-10-14T12:23:00+09:00"
-        },
-        {
-          "id": "coconala-5324009",
-          "title": "【素材なしOK】Instagramリール動画の制作をお願いします。",
-          "url": "https://coconala.com/requests/5324009",
-          "budget": "3,000円",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-13T23:53:00+09:00"
         },
         {
           "id": "coconala-5323792",
@@ -439,60 +485,12 @@
           "postedAt": "2026-10-13T16:14:00+09:00"
         },
         {
-          "id": "coconala-5322871",
-          "title": "【短納期希望】新規VTuberデビューのためのティザーPV作成依頼",
-          "url": "https://coconala.com/requests/5322871",
-          "budget": "3万円〜5万円",
-          "deadline": "2026-10-15",
-          "postedAt": "2026-10-13T13:17:00+09:00"
-        },
-        {
-          "id": "coconala-5322824",
-          "title": "クイズ系ショート動画の企画・編集担当者を募集します",
-          "url": "https://coconala.com/requests/5322824",
-          "budget": "5千円未満",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-13T12:45:00+09:00"
-        },
-        {
-          "id": "coconala-5322169",
-          "title": "料理アプリの動画撮影・編集ができる方を募集します",
-          "url": "https://coconala.com/requests/5322169",
-          "budget": "5,000円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-12T23:45:00+09:00"
-        },
-        {
-          "id": "coconala-5322115",
-          "title": "YouTube切り抜きチャンネル運営者募集します！",
-          "url": "https://coconala.com/requests/5322115",
-          "budget": "5千円未満",
-          "deadline": "2026-10-19",
-          "postedAt": "2026-10-12T22:57:00+09:00"
-        },
-        {
           "id": "coconala-5321220",
           "title": "テロップ・タイトル・SEなどの挿入｜動画編集ができる方を募集します｜Premiere Pro必須",
           "url": "https://coconala.com/requests/5321220",
           "budget": "見積り希望",
           "deadline": "2026-10-22",
           "postedAt": "2026-10-12T14:15:00+09:00"
-        },
-        {
-          "id": "coconala-5320848",
-          "title": "【専属1名】YouTube動画編集｜30分動画+short動画｜1本5万実績あり｜長期案件",
-          "url": "https://coconala.com/requests/5320848",
-          "budget": "1万円〜3万円",
-          "deadline": "2026-10-15",
-          "postedAt": "2026-10-12T10:17:00+09:00"
-        },
-        {
-          "id": "coconala-5320631",
-          "title": "SNS向け料理ショート動画の編集スタッフ募集",
-          "url": "https://coconala.com/requests/5320631",
-          "budget": "5千円〜1万円",
-          "deadline": "2026-10-15",
-          "postedAt": "2026-10-12T02:41:00+09:00"
         },
         {
           "id": "coconala-5320464",
@@ -527,30 +525,6 @@
           "postedAt": "2026-10-11T10:09:00+09:00"
         },
         {
-          "id": "coconala-5319192",
-          "title": "MVの素材動画撮影",
-          "url": "https://coconala.com/requests/5319192",
-          "budget": "見積り希望",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-11T08:21:00+09:00"
-        },
-        {
-          "id": "coconala-5318542",
-          "title": "ライブイベントのリリックモーション制作ができる方を募集します",
-          "url": "https://coconala.com/requests/5318542",
-          "budget": "1万円〜3万円",
-          "deadline": "2026-10-15",
-          "postedAt": "2026-10-10T18:36:00+09:00"
-        },
-        {
-          "id": "coconala-5318524",
-          "title": "ライブ演出映像の企画制作ができる方を募集します",
-          "url": "https://coconala.com/requests/5318524",
-          "budget": "1万円〜3万円",
-          "deadline": "2026-10-15",
-          "postedAt": "2026-10-10T18:28:00+09:00"
-        },
-        {
           "id": "coconala-5318106",
           "title": "美容サロンの魅力を伝えるInstagramリール動画企画担当者募集",
           "url": "https://coconala.com/requests/5318106",
@@ -581,14 +555,6 @@
           "budget": "5千円未満",
           "deadline": "2026-10-18",
           "postedAt": "2026-10-09T22:46:00+09:00"
-        },
-        {
-          "id": "coconala-5314956",
-          "title": "文字を書く動画のカット編集（90度回転・画面トリミングも相談）",
-          "url": "https://coconala.com/requests/5314956",
-          "budget": "5千円未満",
-          "deadline": "2026-10-16",
-          "postedAt": "2026-10-08T16:04:00+09:00"
         },
         {
           "id": "coconala-5314342",
@@ -647,9 +613,10 @@
           "postedAt": "2026-10-04T00:59:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-15T07:48:55.572Z",
-      "lastAttempt": "2026-10-16T03:27:20.522Z",
-      "error": "取得元の応答: HTTP 404"
+      "lastSuccess": "2026-10-17T03:24:47.929Z",
+      "lastAttempt": "2026-10-17T03:24:47.929Z",
+      "error": null,
+      "rawCount": 38
     },
     {
       "id": "mamaworks",
@@ -662,12 +629,6 @@
           "title": "【完全在宅・未経験OK】Instagramリールの動画編集｜SNS運用サポート",
           "url": "https://mamaworks.jp/job/39252",
           "budget": "動画1本1,500円（税込) 〜 ※ご対応いただく作業量に応じて変動いたします。"
-        },
-        {
-          "id": "mamaworks-39177",
-          "title": "住宅×ショート動画の編集スキルを在宅で活かす！InstagramリールやYouTubeショート編集スタッフ募集",
-          "url": "https://mamaworks.jp/job/39177",
-          "budget": "時間単価 1,500円（税込）"
         },
         {
           "id": "mamaworks-39162",
@@ -820,8 +781,8 @@
           "budget": "時間単価：1,300円〜（税込）"
         }
       ],
-      "lastSuccess": "2026-10-16T03:27:20.522Z",
-      "lastAttempt": "2026-10-16T03:27:20.522Z",
+      "lastSuccess": "2026-10-17T03:24:47.929Z",
+      "lastAttempt": "2026-10-17T03:24:47.929Z",
       "error": null,
       "rawCount": 32
     },
@@ -854,16 +815,10 @@
           "title": "時間場所問わず遠隔で動画編集ができる方！SNS動画クリエイター募集！",
           "url": "https://www.wantedly.com/projects/2479835",
           "budget": "報酬・稼働条件は募集先に確認"
-        },
-        {
-          "id": "wantedly-2316235",
-          "title": "映像編集歴半年以上から挑戦！SNS向け縦型ショートドラマの切り抜き動画",
-          "url": "https://www.wantedly.com/projects/2316235",
-          "budget": "報酬・稼働条件は募集先に確認"
         }
       ],
-      "lastSuccess": "2026-10-16T03:27:20.522Z",
-      "lastAttempt": "2026-10-16T03:27:20.522Z",
+      "lastSuccess": "2026-10-17T03:24:47.929Z",
+      "lastAttempt": "2026-10-17T03:24:47.929Z",
       "error": null,
       "rawCount": 10
     },
@@ -898,107 +853,45 @@
       "url": "https://crowdworks.jp/public/jobs/group/video_contents?order=new",
       "jobs": [
         {
-          "id": "crowdworks-13538035",
-          "title": "【週30本～の大量発注可／継続あり】TikTokショート動画編集パートナー募集！台本・素材あり/フルリモート",
-          "url": "https://crowdworks.jp/public/jobs/13538035",
+          "id": "crowdworks-13539841",
+          "title": "【月30,000円】テロップ追加や音声調整など動画編集のお仕事！",
+          "url": "https://crowdworks.jp/public/jobs/13539841",
+          "budget": "〜3,000円",
+          "deadline": "2026-10-31",
+          "postedAt": "2026-10-17T11:35:39+09:00"
+        },
+        {
+          "id": "crowdworks-13536271",
+          "title": "【広告動画編集/急募】1分のショート動画を即納いただける編集者を数名募集します！ 【長期継続依頼】",
+          "url": "https://crowdworks.jp/public/jobs/13536271",
+          "budget": "10,000円〜30,000円",
+          "deadline": "2026-10-23",
+          "postedAt": "2026-10-16T19:21:58+09:00"
+        },
+        {
+          "id": "crowdworks-13538795",
+          "title": "【継続・長期】VTuber切り抜きショート（30秒）の動画編集者募集｜Premiere Pro",
+          "url": "https://crowdworks.jp/public/jobs/13538795",
           "budget": "予算は募集ページで確認",
           "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T11:45:31+09:00"
-        },
-        {
-          "id": "crowdworks-13538024",
-          "title": "英会話系のショート動画編集者募集！",
-          "url": "https://crowdworks.jp/public/jobs/13538024",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T11:38:23+09:00"
-        },
-        {
-          "id": "crowdworks-13538011",
-          "title": "100万再生越えのアカウントのインスタ用のショート動画編集者募集！",
-          "url": "https://crowdworks.jp/public/jobs/13538011",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T11:34:25+09:00"
-        },
-        {
-          "id": "crowdworks-13537932",
-          "title": "【高単価1本12,000円】キャラ素材あり！YouTube向けアニメーション動画の編集【在宅ワーク】",
-          "url": "https://crowdworks.jp/public/jobs/13537932",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-21",
-          "postedAt": "2026-10-16T11:03:00+09:00"
-        },
-        {
-          "id": "crowdworks-13228358",
-          "title": "１本5,000円～【急募案件増加中／動画編集】YouTubeファンタジーラブコメ系漫画動画の動画制作【Premiere Pro】",
-          "url": "https://crowdworks.jp/public/jobs/13228358",
-          "budget": "50,000円〜100,000円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T10:39:18+09:00"
-        },
-        {
-          "id": "crowdworks-13537608",
-          "title": "【福岡】飲食店のカメラ撮影 YouTube動画",
-          "url": "https://crowdworks.jp/public/jobs/13537608",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T10:25:27+09:00"
-        },
-        {
-          "id": "crowdworks-13537594",
-          "title": "【本日対応可能な方】月 4-8本お願いできますと幸いです。投資系の動画編集になります。",
-          "url": "https://crowdworks.jp/public/jobs/13537594",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T09:07:55+09:00"
-        },
-        {
-          "id": "crowdworks-13537565",
-          "title": "【本日対応可能な方】月 4-8本お願いできますと幸いです。投資系の動画編集になります。",
-          "url": "https://crowdworks.jp/public/jobs/13537565",
-          "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T08:42:15+09:00"
-        },
-        {
-          "id": "crowdworks-13537549",
-          "title": "【動画編集者募集】最大手Vtuber事務所の切り抜き動画の編集者募集｜長期歓迎",
-          "url": "https://crowdworks.jp/public/jobs/13537549",
-          "budget": "〜500円",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T08:34:30+09:00"
-        },
-        {
-          "id": "crowdworks-13536213",
-          "title": "【継続、大量募集ございます】ワンピース、ナルト、toloveるなどジャンプ系の反応集ショート動画編集者さんを募集いたします",
-          "url": "https://crowdworks.jp/public/jobs/13536213",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-18",
-          "postedAt": "2026-10-16T08:19:54+09:00"
-        },
-        {
-          "id": "crowdworks-13536195",
-          "title": "【長期継続、大量募集あり】なろう・ラノベ系アニメの反応集ショート動画編集者さんを募集します",
-          "url": "https://crowdworks.jp/public/jobs/13536195",
-          "budget": "30,000円〜50,000円",
-          "deadline": "2026-10-18",
-          "postedAt": "2026-10-16T08:19:54+09:00"
+          "postedAt": "2026-10-16T16:43:14+09:00"
         }
       ],
-      "lastSuccess": "2026-10-16T03:27:20.522Z",
-      "lastAttempt": "2026-10-16T03:27:20.522Z",
+      "lastSuccess": "2026-10-17T03:24:47.929Z",
+      "lastAttempt": "2026-10-17T03:24:47.929Z",
       "error": null,
-      "rawCount": 150,
+      "rawCount": 148,
       "screeningPolicy": "cw-student-exclusions-20261014-v2-video-reference",
-      "detailChecked": 53,
+      "detailChecked": 56,
       "excluded": {
-        "excluded_keyword": 45,
-        "no_reference_video": 28,
-        "unverifiable": 7,
+        "excluded_keyword": 56,
+        "unverifiable": 4,
+        "no_reference_video": 23,
         "occupation_question": 1,
-        "no_rating_or_contracts": 2,
-        "not_checked": 21
+        "personal_questions": 2,
+        "no_rating_or_contracts": 1,
+        "age_or_school": 1,
+        "not_checked": 23
       }
     }
   ]
