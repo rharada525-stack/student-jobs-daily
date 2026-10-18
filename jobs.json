@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastAttempt": "2026-10-17T03:24:47.929Z",
+  "lastAttempt": "2026-10-18T03:25:07.201Z",
   "sources": [
     {
       "id": "coconala_long",
@@ -345,8 +345,8 @@
           "budget": "50 ~ 50 万円／月"
         }
       ],
-      "lastSuccess": "2026-10-17T03:24:47.929Z",
-      "lastAttempt": "2026-10-17T03:24:47.929Z",
+      "lastSuccess": "2026-10-18T03:25:07.201Z",
+      "lastAttempt": "2026-10-18T03:25:07.201Z",
       "error": null,
       "rawCount": 66
     },
@@ -357,12 +357,20 @@
       "url": "https://coconala.com/requests/categories/10?recruiting=true",
       "jobs": [
         {
-          "id": "coconala-5330103",
-          "title": "美容整体ビフォーアフター",
-          "url": "https://coconala.com/requests/5330103",
-          "budget": "見積り希望",
+          "id": "coconala-5331010",
+          "title": "動画編集作成！簡単にしていただける方！",
+          "url": "https://coconala.com/requests/5331010",
+          "budget": "でも構わない方。ponden42投稿日時：15時間前ブックマーク予算1,000円",
+          "deadline": "2026-10-31",
+          "postedAt": "2026-10-17T21:04:00+09:00"
+        },
+        {
+          "id": "coconala-5330396",
+          "title": "結婚式プロフィールムービーの企画と編集ができる方募集",
+          "url": "https://coconala.com/requests/5330396",
+          "budget": "5千円〜1万円",
           "deadline": "2026-10-20",
-          "postedAt": "2026-10-17T10:13:00+09:00"
+          "postedAt": "2026-10-17T13:48:00+09:00"
         },
         {
           "id": "coconala-5329914",
@@ -395,14 +403,6 @@
           "budget": "見積り希望",
           "deadline": "2026-10-21",
           "postedAt": "2026-10-16T18:34:00+09:00"
-        },
-        {
-          "id": "coconala-5329241",
-          "title": "YouTube用の約3分動画の編集者様を募集しています。",
-          "url": "https://coconala.com/requests/5329241",
-          "budget": "1万円〜3万円",
-          "deadline": "2026-10-23",
-          "postedAt": "2026-10-16T17:30:00+09:00"
         },
         {
           "id": "coconala-5328714",
@@ -469,14 +469,6 @@
           "postedAt": "2026-10-14T12:23:00+09:00"
         },
         {
-          "id": "coconala-5323792",
-          "title": "【継続依頼あり】約5分の動画のテロップ編集者募集｜Premiere Pro使用",
-          "url": "https://coconala.com/requests/5323792",
-          "budget": "5千円未満",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-13T21:44:00+09:00"
-        },
-        {
           "id": "coconala-5323199",
           "title": "TikTok公式アカウントの動画企画・編集担当者を募集します",
           "url": "https://coconala.com/requests/5323199",
@@ -509,14 +501,6 @@
           "postedAt": "2026-10-11T22:38:00+09:00"
         },
         {
-          "id": "coconala-5320340",
-          "title": "VTuberライブのOP映像と特報映像の企画制作担当者を募集します",
-          "url": "https://coconala.com/requests/5320340",
-          "budget": "3万円〜5万円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-11T21:54:00+09:00"
-        },
-        {
           "id": "coconala-5319327",
           "title": "YouTube動画編集者！募集！",
           "url": "https://coconala.com/requests/5319327",
@@ -531,14 +515,6 @@
           "budget": "5千円未満",
           "deadline": "2026-10-19",
           "postedAt": "2026-10-10T13:37:00+09:00"
-        },
-        {
-          "id": "coconala-5318088",
-          "title": "クーラーボックス3製品×3色の白背景商品撮影（15カット〜・送付型）",
-          "url": "https://coconala.com/requests/5318088",
-          "budget": "3万円〜5万円",
-          "deadline": "2026-10-17",
-          "postedAt": "2026-10-10T13:21:00+09:00"
         },
         {
           "id": "coconala-5317870",
@@ -613,10 +589,10 @@
           "postedAt": "2026-10-04T00:59:00+09:00"
         }
       ],
-      "lastSuccess": "2026-10-17T03:24:47.929Z",
-      "lastAttempt": "2026-10-17T03:24:47.929Z",
+      "lastSuccess": "2026-10-18T03:25:07.201Z",
+      "lastAttempt": "2026-10-18T03:25:07.201Z",
       "error": null,
-      "rawCount": 38
+      "rawCount": 33
     },
     {
       "id": "mamaworks",
@@ -781,8 +757,8 @@
           "budget": "時間単価：1,300円〜（税込）"
         }
       ],
-      "lastSuccess": "2026-10-17T03:24:47.929Z",
-      "lastAttempt": "2026-10-17T03:24:47.929Z",
+      "lastSuccess": "2026-10-18T03:25:07.201Z",
+      "lastAttempt": "2026-10-18T03:25:07.201Z",
       "error": null,
       "rawCount": 32
     },
@@ -817,8 +793,8 @@
           "budget": "報酬・稼働条件は募集先に確認"
         }
       ],
-      "lastSuccess": "2026-10-17T03:24:47.929Z",
-      "lastAttempt": "2026-10-17T03:24:47.929Z",
+      "lastSuccess": "2026-10-18T03:25:07.201Z",
+      "lastAttempt": "2026-10-18T03:25:07.201Z",
       "error": null,
       "rawCount": 10
     },
@@ -853,45 +829,27 @@
       "url": "https://crowdworks.jp/public/jobs/group/video_contents?order=new",
       "jobs": [
         {
-          "id": "crowdworks-13539841",
-          "title": "【月30,000円】テロップ追加や音声調整など動画編集のお仕事！",
-          "url": "https://crowdworks.jp/public/jobs/13539841",
-          "budget": "〜3,000円",
-          "deadline": "2026-10-31",
-          "postedAt": "2026-10-17T11:35:39+09:00"
-        },
-        {
-          "id": "crowdworks-13536271",
-          "title": "【広告動画編集/急募】1分のショート動画を即納いただける編集者を数名募集します！ 【長期継続依頼】",
-          "url": "https://crowdworks.jp/public/jobs/13536271",
+          "id": "crowdworks-13540483",
+          "title": "【顔出しなしOK】YouTubeタロット占い動画の出演・撮影パートナー募集",
+          "url": "https://crowdworks.jp/public/jobs/13540483",
           "budget": "10,000円〜30,000円",
-          "deadline": "2026-10-23",
-          "postedAt": "2026-10-16T19:21:58+09:00"
-        },
-        {
-          "id": "crowdworks-13538795",
-          "title": "【継続・長期】VTuber切り抜きショート（30秒）の動画編集者募集｜Premiere Pro",
-          "url": "https://crowdworks.jp/public/jobs/13538795",
-          "budget": "予算は募集ページで確認",
-          "deadline": "2026-10-30",
-          "postedAt": "2026-10-16T16:43:14+09:00"
+          "deadline": "2026-10-31",
+          "postedAt": "2026-10-17T21:22:05+09:00"
         }
       ],
-      "lastSuccess": "2026-10-17T03:24:47.929Z",
-      "lastAttempt": "2026-10-17T03:24:47.929Z",
+      "lastSuccess": "2026-10-18T03:25:07.201Z",
+      "lastAttempt": "2026-10-18T03:25:07.201Z",
       "error": null,
-      "rawCount": 148,
+      "rawCount": 150,
       "screeningPolicy": "cw-student-exclusions-20261014-v2-video-reference",
-      "detailChecked": 56,
+      "detailChecked": 49,
       "excluded": {
-        "excluded_keyword": 56,
-        "unverifiable": 4,
-        "no_reference_video": 23,
-        "occupation_question": 1,
-        "personal_questions": 2,
-        "no_rating_or_contracts": 1,
+        "excluded_keyword": 54,
+        "no_reference_video": 34,
+        "unverifiable": 11,
+        "occupation_question": 3,
         "age_or_school": 1,
-        "not_checked": 23
+        "not_checked": 15
       }
     }
   ]
