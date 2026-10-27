@@ -1,18 +1,16 @@
 name: Daily public job links
+# Retired 2026-10-27: daily updates now run on Cloudflare.
+# No scheduled or push-triggered collection on GitHub.
 on:
-  schedule:
-    - cron: '0 3 * * *' # 12:00 Asia/Tokyo
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['collect.cjs', '.github/workflows/daily-jobs.yml']
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: daily-public-job-links
   cancel-in-progress: false
 jobs:
   update:
+    if: ${{ false }} # Retired: also prevents accidental manual collection.
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
